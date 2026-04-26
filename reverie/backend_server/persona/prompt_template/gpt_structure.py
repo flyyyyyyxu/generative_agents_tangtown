@@ -16,8 +16,8 @@ openai.api_key = openai_api_key
 openai.api_base = minimax_api_base
 
 
-def temp_sleep(seconds=0.1):
-  pass
+def temp_sleep(seconds=1.0):
+  time.sleep(seconds)
 
 
 def _normalize_temperature(temperature):
@@ -37,20 +37,37 @@ _NO_THINK_SYSTEM = (
   "Respond directly and concisely. Do not reason step by step before answering."
 )
 
+_RATE_LIMIT_CODES = (2056, 2062)
+
 def _chat_completion(prompt, max_tokens=512, temperature=1.0, top_p=1, stop=None):
-  completion = openai.ChatCompletion.create(
-    model=minimax_model,
-    messages=[
-      {"role": "system", "content": _NO_THINK_SYSTEM},
-      {"role": "user", "content": prompt},
-    ],
-    max_tokens=max_tokens,
-    temperature=_normalize_temperature(temperature),
-    top_p=top_p if top_p is not None else 1,
-    stop=stop,
-  )
-  content = completion["choices"][0]["message"]["content"]
-  return re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+  wait = 5
+  for attempt in range(6):
+    try:
+      completion = openai.ChatCompletion.create(
+        model=minimax_model,
+        messages=[
+          {"role": "system", "content": _NO_THINK_SYSTEM},
+          {"role": "user", "content": prompt},
+        ],
+        max_tokens=max_tokens,
+        temperature=_normalize_temperature(temperature),
+        top_p=top_p if top_p is not None else 1,
+        stop=stop,
+      )
+      content = completion["choices"][0]["message"]["content"]
+      return re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL).strip()
+    except openai.error.APIError as e:
+      code = getattr(e, "code", None) or (e.json_body or {}).get("error", {}).get("code")
+      try:
+        code = int(code)
+      except (TypeError, ValueError):
+        code = None
+      if code in _RATE_LIMIT_CODES and attempt < 5:
+        print(f"  [rate limit, waiting {wait}s...]", flush=True)
+        time.sleep(wait)
+        wait = min(wait * 2, 60)
+        continue
+      raise
 
 
 def ChatGPT_single_request(prompt):
@@ -207,8 +224,19 @@ def GPT_request(prompt, gpt_parameter):
       top_p=gpt_parameter.get("top_p", 1),
       stop=gpt_parameter.get("stop"),
     )
-  except Exception:
-    print("TOKEN LIMIT EXCEEDED")
+  except openai.error.APIError as e:
+    code = getattr(e, "code", None) or (e.json_body or {}).get("error", {}).get("code")
+    try:
+      code = int(code)
+    except (TypeError, ValueError):
+      code = None
+    if code in _RATE_LIMIT_CODES:
+      print(f"TOKEN LIMIT EXCEEDED [rate limit, will retry next call: {e}]")
+    else:
+      print(f"TOKEN LIMIT EXCEEDED [actual error: {e}]")
+    return "TOKEN LIMIT EXCEEDED"
+  except Exception as e:
+    print(f"TOKEN LIMIT EXCEEDED [actual error: {e}]")
     return "TOKEN LIMIT EXCEEDED"
   _prompt_cache[cache_key] = result
   return result
