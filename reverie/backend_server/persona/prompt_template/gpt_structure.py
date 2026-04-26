@@ -17,7 +17,7 @@ openai.api_base = minimax_api_base
 
 
 def temp_sleep(seconds=0.1):
-  time.sleep(seconds)
+  pass
 
 
 def _normalize_temperature(temperature):
@@ -33,10 +33,17 @@ def _normalize_temperature(temperature):
   return temperature
 
 
+_NO_THINK_SYSTEM = (
+  "Respond directly and concisely. Do not reason step by step before answering."
+)
+
 def _chat_completion(prompt, max_tokens=512, temperature=1.0, top_p=1, stop=None):
   completion = openai.ChatCompletion.create(
     model=minimax_model,
-    messages=[{"role": "user", "content": prompt}],
+    messages=[
+      {"role": "system", "content": _NO_THINK_SYSTEM},
+      {"role": "user", "content": prompt},
+    ],
     max_tokens=max_tokens,
     temperature=_normalize_temperature(temperature),
     top_p=top_p if top_p is not None else 1,
@@ -113,7 +120,7 @@ def GPT4_safe_generate_response(prompt,
     except Exception:
       pass
 
-  return False
+  return fail_safe_response
 
 
 def ChatGPT_safe_generate_response(prompt,
@@ -150,7 +157,7 @@ def ChatGPT_safe_generate_response(prompt,
     except Exception:
       pass
 
-  return False
+  return fail_safe_response
 
 
 def ChatGPT_safe_generate_response_OLD(prompt,
@@ -182,13 +189,18 @@ def ChatGPT_safe_generate_response_OLD(prompt,
 # ###################[SECTION 2: ORIGINAL GPT-3 STRUCTURE] ###################
 # ============================================================================
 
+_prompt_cache = {}
+
 def GPT_request(prompt, gpt_parameter):
   """
   Routes legacy completion-style prompt calls through MiniMax chat completions.
   """
+  cache_key = (prompt, gpt_parameter.get("max_tokens"), gpt_parameter.get("temperature"))
+  if cache_key in _prompt_cache:
+    return _prompt_cache[cache_key]
   temp_sleep()
   try:
-    return _chat_completion(
+    result = _chat_completion(
       prompt,
       max_tokens=gpt_parameter.get("max_tokens", 512),
       temperature=gpt_parameter.get("temperature", 1.0),
@@ -198,6 +210,8 @@ def GPT_request(prompt, gpt_parameter):
   except Exception:
     print("TOKEN LIMIT EXCEEDED")
     return "TOKEN LIMIT EXCEEDED"
+  _prompt_cache[cache_key] = result
+  return result
 
 
 def generate_prompt(curr_input, prompt_lib_file):
@@ -221,7 +235,7 @@ def generate_prompt(curr_input, prompt_lib_file):
 
 def safe_generate_response(prompt,
                            gpt_parameter,
-                           repeat=5,
+                           repeat=2,
                            fail_safe_response="error",
                            func_validate=None,
                            func_clean_up=None,
@@ -244,7 +258,7 @@ def _hash_to_unit_float(seed):
   return (int(seed[:8], 16) / 0xFFFFFFFF) * 2 - 1
 
 
-def get_embedding(text, model="MiniMax-M2.5"):
+def get_embedding(text, model="MiniMax-Text-01"):
   """
   MiniMax's public OpenAI-compatible docs confirm chat completions; to avoid
   relying on undocumented embedding compatibility here, we use a deterministic

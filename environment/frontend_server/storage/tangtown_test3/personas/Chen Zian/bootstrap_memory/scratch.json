@@ -2,8 +2,11 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": null,
-  "curr_tile": null,
+  "curr_time": "February 15, 0742, 18:00:00",
+  "curr_tile": [
+    123,
+    57
+  ],
   "daily_plan_req": "Pass the imperial examination by reviewing classical texts, practicing poetry, and seeking advice from educated acquaintances on court politics and essay style.",
   "name": "Chen Zian",
   "first_name": "Chen",
@@ -25,33 +28,49 @@
   "importance_w": 1,
   "recency_decay": 0.99,
   "importance_trigger_max": 150,
-  "importance_trigger_curr": 150,
-  "importance_ele_n": 0,
+  "importance_trigger_curr": 144,
+  "importance_ele_n": 6,
   "thought_count": 5,
-  "daily_req": [],
-  "f_daily_schedule": [],
-  "f_daily_schedule_hourly_org": [],
-  "act_address": null,
-  "act_start_time": null,
-  "act_duration": null,
-  "act_description": null,
-  "act_pronunciatio": null,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED))",
+      1440
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "TOKEN LIMIT EXCEEDED",
+      1440
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:kitchen:<random>",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 1440,
+  "act_description": "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED))",
+  "act_pronunciatio": "\ud83c\udfad",
   "act_event": [
     "Chen Zian",
-    null,
-    null
+    "Chen Zian",
+    "is"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "<random> is idle",
+  "act_obj_pronunciatio": "\ud83c\udfad",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "<random>",
+    "<random>",
+    "is"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {},
   "chatting_end_time": null,
-  "act_path_set": false,
+  "act_path_set": true,
   "planned_path": []
 }

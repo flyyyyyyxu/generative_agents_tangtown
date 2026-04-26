@@ -66,7 +66,7 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
     fs = 8
     return fs
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 5, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 5, 
              "temperature": 0.8, "top_p": 1, "stream": False,
              "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   prompt_template = "persona/prompt_template/v2/wake_up_hour_v1.txt"
@@ -138,7 +138,7 @@ def run_gpt_prompt_daily_plan(persona,
 
 
   
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 500, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 500, 
                "temperature": 1, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/daily_planning_v6.txt"
@@ -217,17 +217,21 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    cr = gpt_response.strip()
-    if cr[-1] == ".":
+    cr = gpt_response.strip().split("\n")[0].strip()
+    if cr and cr[-1] == ".":
       cr = cr[:-1]
     return cr
 
-  def __func_validate(gpt_response, prompt=""): 
-    try: __func_clean_up(gpt_response, prompt="")
-    except: return False
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      cr = __func_clean_up(gpt_response, prompt="")
+      if not cr or len(cr) > 120:
+        return False
+    except:
+      return False
     return True
 
-  def get_fail_safe(): 
+  def get_fail_safe():
     fs = "asleep"
     return fs
 
@@ -244,7 +248,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
   #   return True
 
   # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 10") ########
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v3_ChatGPT/generate_hourly_schedule_v2.txt" ########
@@ -265,7 +269,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
   # # ChatGPT Plugin ===========================================================
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0.5, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   prompt_template = "persona/prompt_template/v2/generate_hourly_schedule_v2.txt"
@@ -300,6 +304,23 @@ def run_gpt_prompt_task_decomp(persona,
                                test_input=None, 
                                verbose=False): 
   def create_prompt_input(persona, task, duration, test_input=None):
+    def _compact_iss(iss_text, max_len=1200):
+      iss_text = iss_text.strip()
+      if len(iss_text) <= max_len:
+        return iss_text
+
+      compact_lines = []
+      for line in iss_text.splitlines():
+        line = line.strip()
+        if not line:
+          continue
+        if len(line) > 180:
+          line = line[:177].rstrip() + "..."
+        compact_lines.append(line)
+        if sum(len(i) + 1 for i in compact_lines) >= max_len:
+          break
+      compact = "\n".join(compact_lines).strip()
+      return compact[:max_len].rstrip() + "..."
 
     """
     Today is Saturday June 25. From 00:00 ~ 06:00am, Maeve is 
@@ -320,14 +341,14 @@ def run_gpt_prompt_task_decomp(persona,
 
     curr_time_range = ""
 
-    print ("DEBUG")
-    print (persona.scratch.f_daily_schedule_hourly_org)
-    print (all_indices)
+    # print ("DEBUG")
+    # print (persona.scratch.f_daily_schedule_hourly_org)
+    # print (all_indices)
 
     summ_str = f'Today is {persona.scratch.curr_time.strftime("%B %d, %Y")}. '
     summ_str += f'From '
     for index in all_indices: 
-      print ("index", index)
+      # print ("index", index)
       if index < len(persona.scratch.f_daily_schedule_hourly_org): 
         start_min = 0
         for i in range(index): 
@@ -345,7 +366,7 @@ def run_gpt_prompt_task_decomp(persona,
     summ_str = summ_str[:-2] + "."
 
     prompt_input = []
-    prompt_input += [persona.scratch.get_str_iss()]
+    prompt_input += [_compact_iss(persona.scratch.get_str_iss())]
     prompt_input += [summ_str]
     # prompt_input += [persona.scratch.get_str_curr_date_str()]
     prompt_input += [persona.scratch.get_str_firstname()]
@@ -357,12 +378,12 @@ def run_gpt_prompt_task_decomp(persona,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    print ("TOODOOOOOO")
-    print (gpt_response)
-    print ("-==- -==- -==- ")
+    # print ("TOODOOOOOO")
+    # print (gpt_response)
+    # print ("-==- -==- -==- ")
 
     # TODO SOMETHING HERE sometimes fails... See screenshot
-    temp = [i.strip() for i in gpt_response.split("\n")]
+    temp = [i.strip() for i in gpt_response.split("\n") if i.strip()]
     _cr = []
     cr = []
     for count, i in enumerate(temp): 
@@ -394,6 +415,9 @@ def run_gpt_prompt_task_decomp(persona,
           curr_min_slot += [(i_task, count)]       
     curr_min_slot = curr_min_slot[1:]   
 
+    if not curr_min_slot:
+      raise ValueError("Empty task decomposition")
+
     if len(curr_min_slot) > total_expected_min: 
       last_task = curr_min_slot[60]
       for i in range(1, 6): 
@@ -413,20 +437,19 @@ def run_gpt_prompt_task_decomp(persona,
 
     return cr
 
-  def __func_validate(gpt_response, prompt=""): 
-    # TODO -- this sometimes generates error 
-    try: 
+  def __func_validate(gpt_response, prompt=""):
+    try:
       __func_clean_up(gpt_response)
-    except: 
-      pass
-      # return False
-    return gpt_response
+      return True
+    except:
+      return False
 
   def get_fail_safe(): 
-    fs = ["asleep"]
+    safe_duration = max(5, int(duration) - (int(duration) % 5))
+    fs = [[task, safe_duration]]
     return fs
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 1000, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 1000, 
              "temperature": 0, "top_p": 1, "stream": False,
              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/task_decomp_v3.txt"
@@ -434,8 +457,8 @@ def run_gpt_prompt_task_decomp(persona,
   prompt = generate_prompt(prompt_input, prompt_template)
   fail_safe = get_fail_safe()
 
-  print ("?????")
-  print (prompt)
+  # print ("?????")
+  # print (prompt)
   output = safe_generate_response(prompt, gpt_param, 5, get_fail_safe(),
                                    __func_validate, __func_clean_up)
 
@@ -449,11 +472,16 @@ def run_gpt_prompt_task_decomp(persona,
   IndexError: list index out of range
   """
 
-  print ("IMPORTANT VVV DEBUG")
+  # print ("IMPORTANT VVV DEBUG")
 
   # print (prompt_input)
   # print (prompt)
-  print (output)
+  # print (output)
+
+  if (not isinstance(output, list)
+      or not output
+      or not all(isinstance(i, (list, tuple)) and len(i) == 2 for i in output)):
+    output = get_fail_safe()
 
   fin_output = []
   time_sum = 0
@@ -470,6 +498,10 @@ def run_gpt_prompt_task_decomp(persona,
     ftime_sum += fi_duration
   
   # print ("for debugging... line 365", fin_output)
+  if not fin_output:
+    fin_output = get_fail_safe()
+    ftime_sum = sum(i_duration for _, i_duration in fin_output)
+
   fin_output[-1][1] += (duration - ftime_sum)
   output = fin_output 
 
@@ -583,7 +615,7 @@ def run_gpt_prompt_action_sector(action_description,
   #   return True 
 
   # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 20") ########
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v3_ChatGPT/action_location_sector_v2.txt" ########
@@ -602,7 +634,7 @@ def run_gpt_prompt_action_sector(action_description,
 
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v1/action_location_sector_v1.txt"
@@ -618,7 +650,7 @@ def run_gpt_prompt_action_sector(action_description,
     # output = random.choice(x)
     output = persona.scratch.living_area.split(":")[1]
 
-  print ("DEBUG", random.choice(x), "------", output)
+  # print ("DEBUG", random.choice(x), "------", output)
 
   if debug or verbose: 
     print_run_prompts(prompt_template, persona, gpt_param, 
@@ -699,7 +731,7 @@ def run_gpt_prompt_action_arena(action_description,
     fs = ("kitchen")
     return fs
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v1/action_location_object_vMar11.txt"
@@ -709,7 +741,7 @@ def run_gpt_prompt_action_arena(action_description,
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-  print (output)
+  # print (output)
   # y = f"{act_world}:{act_sector}"
   # x = [i.strip() for i in persona.s_mem.get_str_accessible_sector_arenas(y).split(",")]
   # if output not in x: 
@@ -755,7 +787,7 @@ def run_gpt_prompt_action_game_object(action_description,
     fs = ("bed")
     return fs
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v1/action_object_v2.txt"
@@ -782,7 +814,9 @@ def run_gpt_prompt_action_game_object(action_description,
 
 
 
-def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False): 
+def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False):
+  return ["🎭", "MiniMax-M2.5"]
+
   def create_prompt_input(action_description): 
     if "(" in action_description: 
       action_description = action_description.split("(")[-1].split(")")[0]
@@ -824,8 +858,8 @@ def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False):
     return True 
     return True
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 4") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 4") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/generate_pronunciatio_v1.txt" ########
@@ -844,7 +878,7 @@ def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False):
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   # prompt_template = "persona/prompt_template/v2/generate_pronunciatio_v1.txt"
@@ -915,7 +949,7 @@ def run_gpt_prompt_event_triple(action_description, persona, verbose=False):
   #   return True 
 
   # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 5") ########
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v3_ChatGPT/generate_event_triple_v1.txt" ########
@@ -933,7 +967,7 @@ def run_gpt_prompt_event_triple(action_description, persona, verbose=False):
 
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 30, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 30, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   prompt_template = "persona/prompt_template/v2/generate_event_triple_v1.txt"
@@ -1000,8 +1034,8 @@ def run_gpt_prompt_act_obj_desc(act_game_object, act_desp, persona, verbose=Fals
       return False
     return True 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 6") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 6") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/generate_obj_event_v1.txt" ########
@@ -1018,7 +1052,7 @@ def run_gpt_prompt_act_obj_desc(act_game_object, act_desp, persona, verbose=Fals
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 30, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 30, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   # prompt_template = "persona/prompt_template/v2/generate_obj_event_v1.txt"
@@ -1066,7 +1100,7 @@ def run_gpt_prompt_act_obj_event_triple(act_game_object, act_obj_desc, persona, 
     fs = (act_game_object, "is", "idle")
     return fs
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 30, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 30, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   prompt_template = "persona/prompt_template/v2/generate_event_triple_v1.txt"
@@ -1206,7 +1240,7 @@ def run_gpt_prompt_new_decomp_schedule(persona,
 
     return ret
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 1000, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 1000, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/new_decomp_schedule_v1.txt"
@@ -1320,7 +1354,7 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
 
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 20, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 20, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/decide_to_talk_v2.txt"
@@ -1418,7 +1452,7 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
     return fs
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 20, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 20, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/decide_to_react_v1.txt"
@@ -1561,7 +1595,7 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
     return convo
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 1000, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 1000, 
                "temperature": 0.7, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/create_conversation_v2.txt"
@@ -1625,8 +1659,8 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
       return False 
 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 11") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 11") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_conversation_v1.txt" ########
@@ -1642,7 +1676,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
   # ChatGPT Plugin ===========================================================
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/summarize_conversation_v1.txt"
@@ -1670,8 +1704,8 @@ def run_gpt_prompt_extract_keywords(persona, description, test_input=None, verbo
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    print ("???")
-    print (gpt_response)
+    # print ("???")
+    # print (gpt_response)
     gpt_response = gpt_response.strip().split("Emotive keywords:")
     factual = [i.strip() for i in gpt_response[0].split(",")]
     emotive = [i.strip() for i in gpt_response[1].split(",")]
@@ -1683,7 +1717,7 @@ def run_gpt_prompt_extract_keywords(persona, description, test_input=None, verbo
         if i[-1] == ".": 
           i = i[:-1]
         ret += [i]
-    print (ret)
+    # print (ret)
     return set(ret)
 
   def __func_validate(gpt_response, prompt=""): 
@@ -1696,7 +1730,7 @@ def run_gpt_prompt_extract_keywords(persona, description, test_input=None, verbo
   def get_fail_safe(): 
     return []
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/get_keywords_v1.txt"
@@ -1741,7 +1775,7 @@ def run_gpt_prompt_keyword_to_thoughts(persona, keyword, concept_summary, test_i
   def get_fail_safe(): 
     return ""
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 40, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 40, 
                "temperature": 0.7, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/keyword_to_thoughts_v1.txt"
@@ -1796,7 +1830,7 @@ def run_gpt_prompt_convo_to_thoughts(persona,
   def get_fail_safe(): 
     return ""
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 40, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 40, 
                "temperature": 0.7, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/convo_to_thoughts_v1.txt"
@@ -1842,7 +1876,9 @@ def run_gpt_prompt_convo_to_thoughts(persona,
 
 
 
-def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, verbose=False): 
+def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, verbose=False):
+  return [5, "MiniMax-M2.5"]
+
   def create_prompt_input(persona, event_description, test_input=None): 
     prompt_input = [persona.scratch.name,
                     persona.scratch.get_str_iss(),
@@ -1878,8 +1914,8 @@ def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, 
     except:
       return False 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 7") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 7") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/poignancy_event_v1.txt" ########
@@ -1897,7 +1933,7 @@ def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, 
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 3, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 3, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/poignancy_event_v1.txt"
@@ -1915,20 +1951,22 @@ def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, 
   # return output, [output, prompt, gpt_param, prompt_input, fail_safe]
 
 
-def run_gpt_prompt_thought_poignancy(persona, event_description, test_input=None, verbose=False): 
-  def create_prompt_input(persona, event_description, test_input=None): 
+def run_gpt_prompt_thought_poignancy(persona, event_description, test_input=None, verbose=False):
+  return [5, "MiniMax-M2.5"]
+
+  def create_prompt_input(persona, event_description, test_input=None):
     prompt_input = [persona.scratch.name,
                     persona.scratch.get_str_iss(),
                     persona.scratch.name,
                     event_description]
     return prompt_input
-  
+
   def __func_clean_up(gpt_response, prompt=""):
     gpt_response = int(gpt_response.strip())
     return gpt_response
 
-  def __func_validate(gpt_response, prompt=""): 
-    try: 
+  def __func_validate(gpt_response, prompt=""):
+    try:
       __func_clean_up(gpt_response, prompt)
       return True
     except:
@@ -1949,8 +1987,8 @@ def run_gpt_prompt_thought_poignancy(persona, event_description, test_input=None
     except:
       return False 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 8") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 8") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/poignancy_thought_v1.txt" ########
@@ -1967,7 +2005,7 @@ def run_gpt_prompt_thought_poignancy(persona, event_description, test_input=None
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 3, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 3, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/poignancy_thought_v1.txt"
@@ -1986,7 +2024,9 @@ def run_gpt_prompt_thought_poignancy(persona, event_description, test_input=None
 
 
 
-def run_gpt_prompt_chat_poignancy(persona, event_description, test_input=None, verbose=False): 
+def run_gpt_prompt_chat_poignancy(persona, event_description, test_input=None, verbose=False):
+  return [5, "MiniMax-M2.5"]
+
   def create_prompt_input(persona, event_description, test_input=None): 
     prompt_input = [persona.scratch.name,
                     persona.scratch.get_str_iss(),
@@ -2021,8 +2061,8 @@ def run_gpt_prompt_chat_poignancy(persona, event_description, test_input=None, v
     except:
       return False 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 9") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 9") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/poignancy_chat_v1.txt" ########
@@ -2040,7 +2080,7 @@ def run_gpt_prompt_chat_poignancy(persona, event_description, test_input=None, v
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 3, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 3, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/poignancy_chat_v1.txt"
@@ -2097,8 +2137,8 @@ def run_gpt_prompt_focal_pt(persona, statements, n, test_input=None, verbose=Fal
       return False 
 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 12") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 12") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/generate_focal_pt_v1.txt" ########
@@ -2118,7 +2158,7 @@ def run_gpt_prompt_focal_pt(persona, statements, n, test_input=None, verbose=Fal
 
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 150, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 150, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/generate_focal_pt_v1.txt"
@@ -2169,7 +2209,7 @@ def run_gpt_prompt_insight_and_guidance(persona, statements, n, test_input=None,
 
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 150, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 150, 
                "temperature": 0.5, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/insight_and_evidence_v1.txt"
@@ -2224,8 +2264,8 @@ def run_gpt_prompt_agent_chat_summarize_ideas(persona, target_persona, statement
     except:
       return False 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 17") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 17") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_chat_ideas_v1.txt" ########
@@ -2242,7 +2282,7 @@ def run_gpt_prompt_agent_chat_summarize_ideas(persona, target_persona, statement
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 150, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 150, 
   #              "temperature": 0.5, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/summarize_chat_ideas_v1.txt"
@@ -2292,8 +2332,8 @@ def run_gpt_prompt_agent_chat_summarize_relationship(persona, target_persona, st
     except:
       return False 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 18") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 18") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_chat_relationship_v2.txt" ########
@@ -2309,7 +2349,7 @@ def run_gpt_prompt_agent_chat_summarize_relationship(persona, target_persona, st
   # ChatGPT Plugin ===========================================================
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 150, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 150, 
   #              "temperature": 0.5, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/summarize_chat_relationship_v1.txt"
@@ -2374,7 +2414,7 @@ def run_gpt_prompt_agent_chat(maze, persona, target_persona,
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    print (gpt_response)
+    # print (gpt_response)
 
     gpt_response = (prompt + gpt_response).split("Here is their conversation.")[-1].strip()
     content = re.findall('"([^"]*)"', gpt_response)
@@ -2421,7 +2461,7 @@ def run_gpt_prompt_agent_chat(maze, persona, target_persona,
 
 
   # print ("HERE JULY 23 -- ----- ") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/agent_chat_v1.txt" ########
@@ -2442,7 +2482,7 @@ def run_gpt_prompt_agent_chat(maze, persona, target_persona,
 
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 2000, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 2000, 
   #              "temperature": 0.7, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/agent_chat_v1.txt"
@@ -2501,8 +2541,8 @@ def run_gpt_prompt_summarize_ideas(persona, statements, question, test_input=Non
     except:
       return False 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 16") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 16") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/summarize_ideas_v1.txt" ########
@@ -2518,7 +2558,7 @@ def run_gpt_prompt_summarize_ideas(persona, statements, question, test_input=Non
   # ChatGPT Plugin ===========================================================
 
 
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 150, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 150, 
   #              "temperature": 0.5, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v2/summarize_ideas_v1.txt"
@@ -2576,7 +2616,7 @@ def run_gpt_prompt_generate_next_convo_line(persona, interlocutor_desc, prev_con
   #     return False 
 
   # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 15") ########
-  # gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
   #              "temperature": 0, "top_p": 1, "stream": False,
   #              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   # prompt_template = "persona/prompt_template/v3_ChatGPT/generate_next_convo_line_v1.txt" ########
@@ -2593,7 +2633,7 @@ def run_gpt_prompt_generate_next_convo_line(persona, interlocutor_desc, prev_con
 
 
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 250, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 250, 
                "temperature": 1, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/generate_next_convo_line_v1.txt"
@@ -2633,7 +2673,7 @@ def run_gpt_prompt_generate_whisper_inner_thought(persona, whisper, test_input=N
   def get_fail_safe(): 
     return "..."
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/whisper_inner_thought_v1.txt"
@@ -2670,7 +2710,7 @@ def run_gpt_prompt_planning_thought_on_convo(persona, all_utt, test_input=None, 
   def get_fail_safe(): 
     return "..."
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/planning_thought_on_convo_v1.txt"
@@ -2720,8 +2760,8 @@ def run_gpt_prompt_memo_on_convo(persona, all_utt, test_input=None, verbose=Fals
       return False 
 
 
-  print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 15") ########
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 15, 
+  # print ("asdhfapsh8p9hfaiafdsi;ldfj as DEBUG 15") ########
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 15, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/memo_on_convo_v1.txt" ########
@@ -2736,7 +2776,7 @@ def run_gpt_prompt_memo_on_convo(persona, all_utt, test_input=None, verbose=Fals
     return output, [output, prompt, gpt_param, prompt_input, fail_safe]
   # ChatGPT Plugin ===========================================================
 
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/memo_on_convo_v1.txt"
@@ -2784,13 +2824,13 @@ def run_gpt_generate_safety_score(persona, comment, test_input=None, verbose=Fal
   prompt_input = create_prompt_input(comment) 
   print ("22")
   prompt = generate_prompt(prompt_input, prompt_template)
-  print (prompt)
+  # print (prompt)
   fail_safe = get_fail_safe() 
   output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
                         __chat_func_validate, __chat_func_clean_up, verbose)
-  print (output)
+  # print (output)
   
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
@@ -2899,17 +2939,16 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
   prompt_input = create_prompt_input(maze, init_persona, target_persona, retrieved, curr_context, curr_chat) 
   print ("22")
   prompt = generate_prompt(prompt_input, prompt_template)
-  print (prompt)
+  # print (prompt)
   fail_safe = get_fail_safe() 
   output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
                         __chat_func_validate, __chat_func_clean_up, verbose)
-  print (output)
+  # print (output)
   
-  gpt_param = {"engine": "MiniMax-M2.5", "max_tokens": 50, 
+  gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
 
 
 

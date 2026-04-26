@@ -56,6 +56,8 @@ class MemoryTree:
     EXAMPLE STR OUTPUT
       "bedroom, kitchen, dining room, office, bathroom"
     """
+    if curr_world not in self.tree:
+      return ""
     x = ", ".join(list(self.tree[curr_world].keys()))
     return x
 
@@ -76,9 +78,12 @@ class MemoryTree:
       "bedroom, kitchen, dining room, office, bathroom"
     """
     curr_world, curr_sector = sector.split(":")
-    if not curr_sector: 
+    if not curr_sector:
       return ""
-    x = ", ".join(list(self.tree[curr_world][curr_sector].keys()))
+    try:
+      x = ", ".join(list(self.tree[curr_world][curr_sector].keys()))
+    except KeyError:
+      return ""
     return x
 
 

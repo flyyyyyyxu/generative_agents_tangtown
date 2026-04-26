@@ -2,8 +2,11 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": null,
-  "curr_tile": null,
+  "curr_time": "February 15, 0742, 18:00:00",
+  "curr_tile": [
+    126,
+    46
+  ],
   "daily_plan_req": "Sell a new shipment of foreign glass cups and aromatic spices at West Market, and secure reliable local partners before the caravan departs Chang'an.",
   "name": "An Lushan",
   "first_name": "An",
@@ -25,33 +28,142 @@
   "importance_w": 1,
   "recency_decay": 0.99,
   "importance_trigger_max": 150,
-  "importance_trigger_curr": 150,
-  "importance_ele_n": 0,
+  "importance_trigger_curr": 145,
+  "importance_ele_n": 5,
   "thought_count": 5,
-  "daily_req": [],
-  "f_daily_schedule": [],
-  "f_daily_schedule_hourly_org": [],
-  "act_address": null,
-  "act_start_time": null,
-  "act_duration": null,
-  "act_description": null,
-  "act_pronunciatio": null,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED))",
+      1440
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "TOKEN LIMIT EXCEEDED",
+      1440
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:kitchen:kitchen sink",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 1440,
+  "act_description": "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED))",
+  "act_pronunciatio": "\ud83c\udfad",
   "act_event": [
     "An Lushan",
-    null,
-    null
+    "An Lushan",
+    "is"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "kitchen sink is idle",
+  "act_obj_pronunciatio": "\ud83c\udfad",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "kitchen sink",
+    "kitchen sink",
+    "is"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {},
   "chatting_end_time": null,
-  "act_path_set": false,
-  "planned_path": []
+  "act_path_set": true,
+  "planned_path": [
+    [
+      128,
+      46
+    ],
+    [
+      129,
+      46
+    ],
+    [
+      130,
+      46
+    ],
+    [
+      131,
+      46
+    ],
+    [
+      131,
+      47
+    ],
+    [
+      131,
+      48
+    ],
+    [
+      131,
+      49
+    ],
+    [
+      131,
+      50
+    ],
+    [
+      130,
+      50
+    ],
+    [
+      129,
+      50
+    ],
+    [
+      128,
+      50
+    ],
+    [
+      127,
+      50
+    ],
+    [
+      126,
+      50
+    ],
+    [
+      125,
+      50
+    ],
+    [
+      124,
+      50
+    ],
+    [
+      123,
+      50
+    ],
+    [
+      122,
+      50
+    ],
+    [
+      122,
+      49
+    ],
+    [
+      122,
+      48
+    ],
+    [
+      122,
+      47
+    ],
+    [
+      122,
+      46
+    ],
+    [
+      121,
+      46
+    ],
+    [
+      121,
+      45
+    ]
+  ]
 }

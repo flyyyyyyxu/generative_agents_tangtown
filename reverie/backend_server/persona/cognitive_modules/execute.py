@@ -12,6 +12,22 @@ from global_methods import *
 from path_finder import *
 from utils import *
 
+def _nearest_valid_address(address, address_tiles):
+  """Return address if valid, else find the nearest valid address by trimming
+  components or falling back to any key in address_tiles."""
+  if address in address_tiles:
+    return address
+  # Try trimming the last component (e.g. bad arena -> sector level)
+  parts = address.split(":")
+  for length in range(len(parts) - 1, 0, -1):
+    prefix = ":".join(parts[:length]) + ":"
+    candidates = [k for k in address_tiles if k.startswith(prefix)]
+    if candidates:
+      return candidates[0]
+  # Last resort: return any valid key
+  return next(iter(address_tiles))
+
+
 def execute(persona, maze, personas, plan): 
   """
   Given a plan (action's string address), we execute the plan (actually 
@@ -76,22 +92,18 @@ def execute(persona, maze, personas, plan):
       y = int(plan.split()[2])
       target_tiles = [[x, y]]
 
-    elif "<random>" in plan: 
+    elif "<random>" in plan:
       # Executing a random location action.
       plan = ":".join(plan.split(":")[:-1])
+      plan = _nearest_valid_address(plan, maze.address_tiles)
       target_tiles = maze.address_tiles[plan]
       target_tiles = random.sample(list(target_tiles), 1)
 
-    else: 
+    else:
       # This is our default execution. We simply take the persona to the
-      # location where the current action is taking place. 
-      # Retrieve the target addresses. Again, plan is an action address in its
-      # string form. <maze.address_tiles> takes this and returns candidate 
-      # coordinates. 
-      if plan not in maze.address_tiles: 
-        maze.address_tiles["Johnson Park:park:park garden"] #ERRORRRRRRR
-      else: 
-        target_tiles = maze.address_tiles[plan]
+      # location where the current action is taking place.
+      plan = _nearest_valid_address(plan, maze.address_tiles)
+      target_tiles = maze.address_tiles[plan]
 
     # There are sometimes more than one tile returned from this (e.g., a tabe
     # may stretch many coordinates). So, we sample a few here. And from that 

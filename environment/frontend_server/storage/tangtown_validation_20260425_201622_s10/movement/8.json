@@ -1,0 +1,164 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        79,
+        16
+      ],
+      "pronunciatio": "🎭",
+      "description": "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random>",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        125,
+        50
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing with a housemate about morning greetings @ <persona> An Lushan",
+      "chat": [
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ]
+      ]
+    },
+    "An Lushan": {
+      "movement": [
+        131,
+        50
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing with a housemate about morning greetings @ <persona> Chen Zian",
+      "chat": [
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ],
+        [
+          "Chen Zian",
+          "..."
+        ],
+        [
+          "An Lushan",
+          "..."
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 18:01:20"
+  }
+}

@@ -1,0 +1,41 @@
+[0742-02-15 18:00:00] Step 0
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [73, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [123, 56]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [127, 46]
+[0742-02-15 18:00:10] Step 1
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [74, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [123, 55]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [128, 46]
+[0742-02-15 18:00:20] Step 2
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [75, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [123, 54]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [129, 46]
+[0742-02-15 18:00:30] Step 3
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [76, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [124, 54]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [130, 46]
+[0742-02-15 18:00:40] Step 4
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [77, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [124, 53]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [131, 46]
+[0742-02-15 18:00:50] Step 5
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [78, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [124, 52]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [131, 47]
+[0742-02-15 18:01:00] Step 6
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [79, 14]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [124, 51]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [131, 48]
+[0742-02-15 18:01:10] Step 7
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [79, 15]
+  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [124, 50]
+  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [131, 49]
+[0742-02-15 18:01:20] Conversation: An Lushan & Chen Zian
+[0742-02-15 18:01:20] Step 8
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [79, 16]
+  - Chen Zian -> conversing with a housemate about morning greetings @ <persona> An Lushan at [125, 50]
+  - An Lushan -> conversing with a housemate about morning greetings @ <persona> Chen Zian at [131, 50]
+[0742-02-15 18:01:30] Step 9
+  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [79, 17]
+  - Chen Zian -> conversing with a housemate about morning greetings @ <persona> An Lushan at [126, 50]
+  - An Lushan -> conversing with a housemate about morning greetings @ <persona> Chen Zian at [130, 50]

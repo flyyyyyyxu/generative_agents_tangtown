@@ -2,8 +2,11 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": null,
-  "curr_tile": null,
+  "curr_time": "February 15, 0742, 18:00:00",
+  "curr_tile": [
+    72,
+    14
+  ],
   "daily_plan_req": "Prepare and host a successful Lantern Festival evening gathering at the tea house by arranging extra tea, sweet cakes, lamps, seating, and drawing familiar customers in after sunset.",
   "name": "Li Mingzhu",
   "first_name": "Li",
@@ -11,7 +14,7 @@
   "age": 32,
   "innate": "warm, observant, practical; careful with money but generous to regulars",
   "learned": "Li Mingzhu is the owner of a tea house near the West Market of Chang'an during the Tang Dynasty in 742 AD. Merchants, students, officials, and travelers pass through her doors each day, and she is fluent in the social currents of the city through her clientele.",
-  "currently": "Li Mingzhu is preparing a Lantern Festival evening gathering at her tea house. In this simulation, Hobbs Cafe is treated conceptually as 明珠茶馆, a tea house near Chang'an West Market.",
+  "currently": "Li Mingzhu is preparing a Lantern Festival evening gathering at her tea house. In this simulation, Hobbs Cafe is treated conceptually as \u660e\u73e0\u8336\u9986, a tea house near Chang'an West Market.",
   "lifestyle": "Li Mingzhu rises early to inspect tea, cakes, and lamps, and stays active through the evening rush before resting near midnight.",
   "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
   "concept_forget": 100,
@@ -25,33 +28,78 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 150,
-  "importance_trigger_curr": 150,
-  "importance_ele_n": 0,
+  "importance_trigger_curr": 144,
+  "importance_ele_n": 6,
   "thought_count": 5,
-  "daily_req": [],
-  "f_daily_schedule": [],
-  "f_daily_schedule_hourly_org": [],
-  "act_address": null,
-  "act_start_time": null,
-  "act_duration": null,
-  "act_description": null,
-  "act_pronunciatio": null,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED))",
+      1440
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "TOKEN LIMIT EXCEEDED",
+      1440
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:kitchen:<random>",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 1440,
+  "act_description": "TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED))",
+  "act_pronunciatio": "\ud83c\udfad",
   "act_event": [
     "Li Mingzhu",
-    null,
-    null
+    "Li Mingzhu",
+    "is"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "<random> is idle",
+  "act_obj_pronunciatio": "\ud83c\udfad",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "<random>",
+    "<random>",
+    "is"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {},
   "chatting_end_time": null,
-  "act_path_set": false,
-  "planned_path": []
+  "act_path_set": true,
+  "planned_path": [
+    [
+      74,
+      14
+    ],
+    [
+      75,
+      14
+    ],
+    [
+      76,
+      14
+    ],
+    [
+      77,
+      14
+    ],
+    [
+      78,
+      14
+    ],
+    [
+      79,
+      14
+    ],
+    [
+      79,
+      15
+    ]
+  ]
 }
