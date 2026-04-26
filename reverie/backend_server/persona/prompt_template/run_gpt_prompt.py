@@ -243,15 +243,17 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
+    import re
     cr = gpt_response.strip().split("\n")[0].strip()
     # Model may output the full formatted line; extract just the activity
     if "Activity:" in cr:
       cr = cr.split("Activity:")[-1].strip()
-    # Reject prompt-format echoes like "[(ID:..." or "[Sunday Feb 15 --"
-    if cr.startswith("[(") or cr.startswith("[Sunday") or cr.startswith("[Monday") \
-        or cr.startswith("[Tuesday") or cr.startswith("[Wednesday") \
-        or cr.startswith("[Thursday") or cr.startswith("[Friday") \
-        or cr.startswith("[Saturday"):
+    # Reject any bracket-format prompt echo: "[", "[(", "[Sunday", "[ID:..." etc.
+    if cr.startswith("["):
+      return ""
+    # Reject API error strings that leaked through
+    _bad = ("TOKEN LIMIT EXCEEDED", "ChatGPT ERROR", "FAIL SAFE TRIGGERED")
+    if any(b in cr for b in _bad):
       return ""
     if cr and cr[-1] == ".":
       cr = cr[:-1]

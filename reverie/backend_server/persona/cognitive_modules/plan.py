@@ -620,9 +620,16 @@ def _determine_action(persona, maze):
 
 
 
-  act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index] 
+  act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index]
 
-
+  # Fix 3: if simulation starts mid-task, use only the remaining duration
+  elapsed_min = (persona.scratch.curr_time.hour * 60
+                 + persona.scratch.curr_time.minute)
+  prior_min = sum(persona.scratch.f_daily_schedule[i][1]
+                  for i in range(curr_index))
+  remaining = prior_min + act_dura - elapsed_min
+  if 0 < remaining < act_dura:
+    act_dura = remaining
 
   # Finding the target location of the action and creating action-related
   # variables.

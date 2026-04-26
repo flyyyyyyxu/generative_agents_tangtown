@@ -1,0 +1,255 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:00:40",
+  "curr_tile": [
+    123,
+    54
+  ],
+  "daily_plan_req": "Pass the imperial examination by reviewing classical texts, practicing poetry, and seeking advice from educated acquaintances on court politics and essay style.",
+  "name": "Chen Zian",
+  "first_name": "Chen",
+  "last_name": "Zian",
+  "age": 24,
+  "innate": "ambitious, thoughtful, disciplined; prone to self-doubt about his literary elegance",
+  "learned": "Chen Zian is a scholar from a provincial family who has come to Chang'an to sit the imperial examination. He is steeped in Confucian classics and regulated verse, and he studies diligently for advancement.",
+  "currently": "Chen Zian is reviewing classical texts, practicing poetry, and seeking advice on court politics and essay style before the imperial examination. In this simulation, the dormitory and cafe spaces are interpreted as a scholar's inn and tea-house circuit near West Market.",
+  "lifestyle": "Chen Zian studies late, rises after dawn, copies passages carefully, and tries to balance ambition with calm before the examinations.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 133,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "review Confucian classics from 7:00 to 9:00 am",
+    "have breakfast at the inn's dining hall at 9:00 am",
+    "visit tea-house near West Market to seek advice from learned acquaintances on essay style and court politics from 10:00 am to 12:00 pm",
+    "have lunch at a nearby eatery at 12:00 pm",
+    "practice regulated verse composition from 1:00 to 3:00 pm",
+    "copy passages from classical texts to improve penmanship at 3:30 to 5:30 pm",
+    "have dinner at the inn at 6:00 pm",
+    "review notes on court politics and essay techniques from 7:00 to 9:00 pm",
+    "reflect on his progress and meditate to calm his mind from 9:00 to 9:30 pm",
+    "retire for the night at 9:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      120
+    ],
+    [
+      "Chen is reviewing Confucian classics in his room at the scholar's inn, carefully studying the Analects and Mencius to pr",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "Chen is practicing regulated verse composition, carefully working on his poetry by composing verses in the strict tonal ",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ],
+    [
+      "Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e",
+      60
+    ],
+    [
+      "Chen is reviewing his notes on court politics and essay techniques, studying the nuances of political discourse and refi (Chen is reviewing his notes on court politics and essay techniques, studying the nuances of political discourse and refi)",
+      60
+    ],
+    [
+      "Chen is continuing to review his notes on court politics and essay techniques, studying the nuances of political discour",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      120
+    ],
+    [
+      "Chen is reviewing Confucian classics in his room at the scholar's inn, carefully studying the Analects and Mencius to pr",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "Chen is practicing regulated verse composition, carefully working on his poetry by composing verses in the strict tonal ",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ],
+    [
+      "Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e",
+      60
+    ],
+    [
+      "Chen is reviewing his notes on court politics and essay techniques, studying the nuances of political discourse and refi",
+      60
+    ],
+    [
+      "Chen is continuing to review his notes on court politics and essay techniques, studying the nuances of political discour",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Answer:<random>",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 60,
+  "act_description": "Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Chen Zian",
+    "Chen Zian",
+    "is"
+  ],
+  "act_obj_description": "having dinner at the inn's dining hall",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      124,
+      53
+    ],
+    [
+      124,
+      52
+    ],
+    [
+      124,
+      51
+    ],
+    [
+      123,
+      51
+    ],
+    [
+      122,
+      51
+    ],
+    [
+      121,
+      51
+    ],
+    [
+      120,
+      51
+    ],
+    [
+      119,
+      51
+    ],
+    [
+      118,
+      51
+    ],
+    [
+      117,
+      51
+    ],
+    [
+      117,
+      50
+    ],
+    [
+      117,
+      49
+    ],
+    [
+      117,
+      48
+    ],
+    [
+      117,
+      47
+    ],
+    [
+      116,
+      47
+    ],
+    [
+      116,
+      46
+    ],
+    [
+      116,
+      45
+    ],
+    [
+      116,
+      44
+    ],
+    [
+      116,
+      43
+    ],
+    [
+      116,
+      42
+    ],
+    [
+      116,
+      41
+    ],
+    [
+      116,
+      40
+    ],
+    [
+      117,
+      40
+    ],
+    [
+      118,
+      40
+    ]
+  ]
+}

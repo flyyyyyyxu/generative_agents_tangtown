@@ -1,0 +1,20 @@
+[0742-02-15 18:00:00] Step 0
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot at [72, 14]
+  - Chen Zian -> Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e @ the Ville:Dorm for Oak Hill College:Answer:unspecified spot at [123, 57]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 46]
+[0742-02-15 18:00:10] Step 1
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot at [72, 14]
+  - Chen Zian -> Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e @ the Ville:Dorm for Oak Hill College:Answer:unspecified spot at [123, 56]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 46]
+[0742-02-15 18:00:20] Step 2
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot at [73, 14]
+  - Chen Zian -> Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e @ the Ville:Dorm for Oak Hill College:Answer:unspecified spot at [123, 55]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 46]
+[0742-02-15 18:00:30] Step 3
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot at [74, 14]
+  - Chen Zian -> Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e @ the Ville:Dorm for Oak Hill College:Answer:unspecified spot at [123, 54]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 46]
+[0742-02-15 18:00:40] Step 4
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot at [75, 14]
+  - Chen Zian -> Chen is having dinner at the inn's dining hall, taking a brief respite from his studies to nourish his body before the e @ the Ville:Dorm for Oak Hill College:Answer:unspecified spot at [124, 54]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 46]

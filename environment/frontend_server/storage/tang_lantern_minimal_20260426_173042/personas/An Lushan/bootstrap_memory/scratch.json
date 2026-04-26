@@ -1,0 +1,319 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:00:40",
+  "curr_tile": [
+    129,
+    46
+  ],
+  "daily_plan_req": "Sell a new shipment of foreign glass cups and aromatic spices at West Market, and secure reliable local partners before the caravan departs Chang'an.",
+  "name": "An Lushan",
+  "first_name": "An",
+  "last_name": "Lushan",
+  "age": 38,
+  "innate": "shrewd, sociable, adaptive; respects Tang law while always alert to profitable opportunities",
+  "learned": "An Lushan is a Sogdian merchant living in Chang'an, trading in spices, glassware, horses, and textiles sourced from the Silk Road. He is multilingual and often bridges foreign traders with Chinese buyers.",
+  "currently": "An Lushan is trying to sell a new shipment of foreign glass cups and aromatic spices at West Market while securing dependable local partners before his caravan departs. In this simulation, his lodging and social haunts are conceptually mapped onto the foreign quarter inn and tavern.",
+  "lifestyle": "An Lushan rises early for market business, spends the day negotiating and inspecting goods, and keeps evenings free for alliances, feasts, and deals.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 134,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "Here is An Lushan's detailed plan for Sunday, February 15:",
+    "wake up and complete the morning routine at 6:00 am",
+    "breakfast at inn with fellow Sogdian merchants at 7:00 am",
+    "transport goods to West Market at 8:00 am",
+    "set up display of glass cups and spices at trading stall at 9:00 am",
+    "negotiate with Chinese buyers at West Market from 10:00 am to 12:00 pm",
+    "have lunch at a nearby tavern in the foreign quarter at 12:00 pm",
+    "continue selling and meet with potential local partners at West Market from 1:00 pm to 4:00 pm",
+    "inspect caravan supplies and negotiate with local transport agents at 4:30 pm",
+    "return to inn to rest and review accounts at 6:00 pm",
+    "host a dinner at the tavern for promising local partners and fellow merchants at 7:00 pm",
+    "finalize partnership agreements over wine and conversation until 10:00 pm",
+    "return to inn and prepare for tomorrow's market at 10:30 pm",
+    "sleep at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "Wake",
+      60
+    ],
+    [
+      "asleep",
+      420
+    ],
+    [
+      "Continuing to sell glass cups and spices at West Market while meeting with potential local partners",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "An is hosting dinner at the tavern for promising local partners and fellow merchants, finalizing partnership agreements ",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "Wake",
+      60
+    ],
+    [
+      "asleep",
+      420
+    ],
+    [
+      "Continuing to sell glass cups and spices at West Market while meeting with potential local partners",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "An is hosting dinner at the tavern for promising local partners and fellow merchants, finalizing partnership agreements ",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:{common room:<random>",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 120,
+  "act_description": "asleep",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "An Lushan",
+    "An Lushan",
+    "is"
+  ],
+  "act_obj_description": "being used",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      131,
+      46
+    ],
+    [
+      131,
+      47
+    ],
+    [
+      131,
+      48
+    ],
+    [
+      131,
+      49
+    ],
+    [
+      131,
+      50
+    ],
+    [
+      130,
+      50
+    ],
+    [
+      129,
+      50
+    ],
+    [
+      128,
+      50
+    ],
+    [
+      127,
+      50
+    ],
+    [
+      126,
+      50
+    ],
+    [
+      125,
+      50
+    ],
+    [
+      124,
+      50
+    ],
+    [
+      123,
+      50
+    ],
+    [
+      122,
+      50
+    ],
+    [
+      121,
+      50
+    ],
+    [
+      120,
+      50
+    ],
+    [
+      119,
+      50
+    ],
+    [
+      118,
+      50
+    ],
+    [
+      117,
+      50
+    ],
+    [
+      117,
+      49
+    ],
+    [
+      117,
+      48
+    ],
+    [
+      117,
+      47
+    ],
+    [
+      116,
+      47
+    ],
+    [
+      116,
+      46
+    ],
+    [
+      116,
+      45
+    ],
+    [
+      116,
+      44
+    ],
+    [
+      116,
+      43
+    ],
+    [
+      116,
+      42
+    ],
+    [
+      116,
+      41
+    ],
+    [
+      116,
+      40
+    ],
+    [
+      116,
+      39
+    ],
+    [
+      116,
+      38
+    ],
+    [
+      116,
+      37
+    ],
+    [
+      116,
+      36
+    ],
+    [
+      117,
+      36
+    ],
+    [
+      118,
+      36
+    ],
+    [
+      119,
+      36
+    ],
+    [
+      120,
+      36
+    ],
+    [
+      121,
+      36
+    ],
+    [
+      122,
+      36
+    ],
+    [
+      123,
+      36
+    ],
+    [
+      124,
+      36
+    ],
+    [
+      125,
+      36
+    ],
+    [
+      126,
+      36
+    ],
+    [
+      127,
+      36
+    ]
+  ]
+}
