@@ -16,7 +16,7 @@ openai.api_key = openai_api_key
 openai.api_base = minimax_api_base
 
 
-def temp_sleep(seconds=1.0):
+def temp_sleep(seconds=0.3):
   time.sleep(seconds)
 
 
@@ -72,7 +72,11 @@ def _chat_completion(prompt, max_tokens=512, temperature=1.0, top_p=1, stop=None
 
 def ChatGPT_single_request(prompt):
   temp_sleep()
-  return _chat_completion(prompt, max_tokens=512, temperature=1.0, top_p=1)
+  try:
+    return _chat_completion(prompt, max_tokens=512, temperature=1.0, top_p=1)
+  except Exception as e:
+    print(f"TOKEN LIMIT EXCEEDED [actual error: {e}]")
+    return "TOKEN LIMIT EXCEEDED"
 
 
 # ============================================================================
@@ -212,9 +216,6 @@ def GPT_request(prompt, gpt_parameter):
   """
   Routes legacy completion-style prompt calls through MiniMax chat completions.
   """
-  cache_key = (prompt, gpt_parameter.get("max_tokens"), gpt_parameter.get("temperature"))
-  if cache_key in _prompt_cache:
-    return _prompt_cache[cache_key]
   temp_sleep()
   try:
     result = _chat_completion(
@@ -238,7 +239,6 @@ def GPT_request(prompt, gpt_parameter):
   except Exception as e:
     print(f"TOKEN LIMIT EXCEEDED [actual error: {e}]")
     return "TOKEN LIMIT EXCEEDED"
-  _prompt_cache[cache_key] = result
   return result
 
 

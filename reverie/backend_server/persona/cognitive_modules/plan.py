@@ -95,7 +95,7 @@ def generate_hourly_schedule(persona, wake_up_hour):
               "03:00 PM", "04:00 PM", "05:00 PM", "06:00 PM", "07:00 PM",
               "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM"]
   n_m1_activity = []
-  diversity_repeat_count = 3
+  diversity_repeat_count = 1
   for i in range(diversity_repeat_count): 
     n_m1_activity_set = set(n_m1_activity)
     if len(n_m1_activity_set) < 5: 
@@ -424,17 +424,19 @@ def revise_identity(persona):
   plan_prompt += f"If there is any scheduling information, be as specific as possible (include date, time, and location if stated in the statement)\n\n"
   plan_prompt += f"Write the response from {p_name}'s perspective."
   plan_note = ChatGPT_single_request(plan_prompt)
-  # print (plan_note)
+  if not plan_note or "TOKEN LIMIT EXCEEDED" in plan_note or "ChatGPT ERROR" in plan_note:
+    plan_note = ""
 
   thought_prompt = statements + "\n"
   thought_prompt += f"Given the statements above, how might we summarize {p_name}'s feelings about their days up to now?\n\n"
   thought_prompt += f"Write the response from {p_name}'s perspective."
   thought_note = ChatGPT_single_request(thought_prompt)
-  # print (thought_note)
+  if not thought_note or "TOKEN LIMIT EXCEEDED" in thought_note or "ChatGPT ERROR" in thought_note:
+    thought_note = ""
 
   currently_prompt = f"{p_name}'s status from {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}:\n"
   currently_prompt += f"{persona.scratch.currently}\n\n"
-  currently_prompt += f"{p_name}'s thoughts at the end of {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}:\n" 
+  currently_prompt += f"{p_name}'s thoughts at the end of {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}:\n"
   currently_prompt += (plan_note + thought_note).replace('\n', '') + "\n\n"
   currently_prompt += f"It is now {persona.scratch.curr_time.strftime('%A %B %d')}. Given the above, write {p_name}'s status for {persona.scratch.curr_time.strftime('%A %B %d')} that reflects {p_name}'s thoughts at the end of {(persona.scratch.curr_time - datetime.timedelta(days=1)).strftime('%A %B %d')}. Write this in third-person talking about {p_name}."
   currently_prompt += f"If there is any scheduling information, be as specific as possible (include date, time, and location if stated in the statement).\n\n"
@@ -442,10 +444,8 @@ def revise_identity(persona):
   # print ("DEBUG ;adjhfno;asdjao;asdfsidfjo;af", p_name)
   # print (currently_prompt)
   new_currently = ChatGPT_single_request(currently_prompt)
-  # print (new_currently)
-  # print (new_currently[10:])
-
-  persona.scratch.currently = new_currently
+  if new_currently and "TOKEN LIMIT EXCEEDED" not in new_currently and "ChatGPT ERROR" not in new_currently:
+    persona.scratch.currently = new_currently
 
   daily_req_prompt = persona.scratch.get_str_iss() + "\n"
   daily_req_prompt += f"Today is {persona.scratch.curr_time.strftime('%A %B %d')}. Here is {persona.scratch.name}'s plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm).\n\n"
@@ -453,9 +453,9 @@ def revise_identity(persona):
   daily_req_prompt += f"1. wake up and complete the morning routine at <time>, 2. ..."
 
   new_daily_req = ChatGPT_single_request(daily_req_prompt)
-  new_daily_req = new_daily_req.replace('\n', ' ')
-  print ("WE ARE HERE!!!", new_daily_req)
-  persona.scratch.daily_plan_req = new_daily_req
+  if new_daily_req and "TOKEN LIMIT EXCEEDED" not in new_daily_req and "ChatGPT ERROR" not in new_daily_req:
+    new_daily_req = new_daily_req.replace('\n', ' ')
+    persona.scratch.daily_plan_req = new_daily_req
 
 
 def _long_term_planning(persona, new_day): 
@@ -624,7 +624,9 @@ def _determine_action(persona, maze):
   act_world = maze.access_tile(persona.scratch.curr_tile)["world"]
   # act_sector = maze.access_tile(persona.scratch.curr_tile)["sector"]
   act_sector = generate_action_sector(act_desp, persona, maze)
+  act_sector = act_sector.split(":")[0].strip() if act_sector else act_sector
   act_arena = generate_action_arena(act_desp, persona, maze, act_world, act_sector)
+  act_arena = act_arena.split(":")[0].strip() if act_arena else act_arena
   act_address = f"{act_world}:{act_sector}:{act_arena}"
   act_game_object = generate_action_game_object(act_desp, act_address,
                                                 persona, maze)
