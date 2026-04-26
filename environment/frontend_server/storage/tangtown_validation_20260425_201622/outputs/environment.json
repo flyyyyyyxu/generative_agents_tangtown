@@ -3,7 +3,7 @@
   "base_simulation": "base_the_ville_isabella_maria_klaus",
   "time_period": "February 15, 742 AD — Lantern Festival night",
   "location": "Chang'an West Market district (长安西市), Tang Dynasty imperial capital",
-  "model": "MiniMax-Text-01",
+  "model": "MiniMax-M2",
   "base_url": "https://api.minimaxi.com/v1",
   "max_steps_cap": 5000,
   "steps_run": 3,

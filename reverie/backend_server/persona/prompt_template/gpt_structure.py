@@ -258,7 +258,7 @@ def _hash_to_unit_float(seed):
   return (int(seed[:8], 16) / 0xFFFFFFFF) * 2 - 1
 
 
-def get_embedding(text, model="MiniMax-Text-01"):
+def get_embedding(text, model="MiniMax-M2"):
   """
   MiniMax's public OpenAI-compatible docs confirm chat completions; to avoid
   relying on undocumented embedding compatibility here, we use a deterministic

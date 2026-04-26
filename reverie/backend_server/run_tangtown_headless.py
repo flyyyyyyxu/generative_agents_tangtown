@@ -188,7 +188,7 @@ def _local_embedding(text):
 
   embedding = []
   for i in range(64):
-    digest = hashlib.sha256(f"MiniMax-Text-01:{i}:{text}".encode("utf-8")).hexdigest()
+    digest = hashlib.sha256(f"MiniMax-M2:{i}:{text}".encode("utf-8")).hexdigest()
     embedding.append(_hash_to_unit_float(digest))
   return embedding
 
@@ -410,7 +410,7 @@ def _write_outputs(sim_folder,
     "base_simulation": BASE_SIM_CODE,
     "time_period": "February 15, 742 AD — Lantern Festival night",
     "location": "Chang'an West Market district (长安西市), Tang Dynasty imperial capital",
-    "model": "MiniMax-Text-01",
+    "model": "MiniMax-M2",
     "base_url": "https://api.minimaxi.com/v1",
     "max_steps_cap": MAX_STEPS_CAP,
     "steps_run": steps_run,
