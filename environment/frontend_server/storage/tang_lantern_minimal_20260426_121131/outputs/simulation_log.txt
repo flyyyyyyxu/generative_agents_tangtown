@@ -1,0 +1,801 @@
+[0742-02-15 18:00:00] Step 0
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 56]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 46]
+[0742-02-15 18:00:10] Step 1
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 55]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 46]
+[0742-02-15 18:00:20] Step 2
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 54]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 46]
+[0742-02-15 18:00:30] Step 3
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 54]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 46]
+[0742-02-15 18:00:40] Step 4
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 53]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 46]
+[0742-02-15 18:00:50] Step 5
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 52]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 46]
+[0742-02-15 18:01:00] Step 6
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 46]
+[0742-02-15 18:01:10] Step 7
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 46]
+[0742-02-15 18:01:20] Step 8
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 46]
+[0742-02-15 18:01:30] Step 9
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 47]
+[0742-02-15 18:01:40] Step 10
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 48]
+[0742-02-15 18:01:50] Step 11
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 49]
+[0742-02-15 18:02:00] Step 12
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 17]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 50]
+[0742-02-15 18:02:10] Step 13
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 17]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 51]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 50]
+[0742-02-15 18:02:20] Step 14
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 17]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 50]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 50]
+[0742-02-15 18:02:30] Step 15
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 49]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 50]
+[0742-02-15 18:02:40] Step 16
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 48]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 50]
+[0742-02-15 18:02:50] Step 17
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 47]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 50]
+[0742-02-15 18:03:00] Step 18
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 47]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 50]
+[0742-02-15 18:03:10] Step 19
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 46]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 50]
+[0742-02-15 18:03:20] Step 20
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 45]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 50]
+[0742-02-15 18:03:30] Step 21
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 44]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 50]
+[0742-02-15 18:03:40] Step 22
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 43]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 50]
+[0742-02-15 18:03:50] Step 23
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 42]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 50]
+[0742-02-15 18:04:00] Step 24
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 41]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 50]
+[0742-02-15 18:04:10] Step 25
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 40]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 50]
+[0742-02-15 18:04:20] Step 26
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 50]
+[0742-02-15 18:04:30] Step 27
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 17]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 49]
+[0742-02-15 18:04:40] Step 28
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 18]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 48]
+[0742-02-15 18:04:50] Step 29
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 17]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 47]
+[0742-02-15 18:05:00] Step 30
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 47]
+[0742-02-15 18:05:10] Step 31
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 46]
+[0742-02-15 18:05:20] Step 32
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 45]
+[0742-02-15 18:05:30] Step 33
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 44]
+[0742-02-15 18:05:40] Step 34
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 43]
+[0742-02-15 18:05:50] Step 35
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 42]
+[0742-02-15 18:06:00] Step 36
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 41]
+[0742-02-15 18:06:10] Step 37
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 40]
+[0742-02-15 18:06:20] Step 38
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 39]
+[0742-02-15 18:06:30] Step 39
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 38]
+[0742-02-15 18:06:40] Step 40
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [116, 37]
+[0742-02-15 18:06:50] Step 41
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 39]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 37]
+[0742-02-15 18:07:00] Step 42
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 40]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 37]
+[0742-02-15 18:07:10] Step 43
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 41]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 37]
+[0742-02-15 18:07:20] Step 44
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 17]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 41]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 37]
+[0742-02-15 18:07:30] Conversation: An Lushan & Chen Zian
+[0742-02-15 18:07:30] Step 45
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 18]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [121, 37]
+[0742-02-15 18:07:40] Step 46
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 17]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [126, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [122, 37]
+[0742-02-15 18:07:50] Step 47
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [125, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [123, 37]
+[0742-02-15 18:08:00] Step 48
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [124, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [124, 37]
+[0742-02-15 18:08:10] Step 49
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [123, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [125, 37]
+[0742-02-15 18:08:20] Step 50
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [122, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [126, 37]
+[0742-02-15 18:08:30] Step 51
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [121, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:08:40] Step 52
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:08:50] Step 53
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:09:00] Step 54
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:09:10] Step 55
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:09:20] Step 56
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:09:30] Step 57
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:09:40] Step 58
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:09:50] Step 59
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:10:00] Step 60
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:10:10] Step 61
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:10:20] Step 62
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:10:30] Step 63
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:10:40] Step 64
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:10:50] Step 65
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:11:00] Step 66
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:11:10] Step 67
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:11:20] Step 68
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:11:30] Step 69
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [80, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:11:40] Step 70
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:11:50] Step 71
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:12:00] Step 72
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:12:10] Step 73
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:12:20] Step 74
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:12:30] Step 75
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:12:40] Step 76
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:12:50] Step 77
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:13:00] Step 78
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:13:10] Step 79
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:13:20] Step 80
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:13:30] Step 81
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:13:40] Step 82
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:13:50] Step 83
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:14:00] Step 84
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [72, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:14:10] Step 85
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:14:20] Step 86
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:14:30] Step 87
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:14:40] Step 88
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:14:50] Step 89
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:15:00] Step 90
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:15:10] Step 91
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:15:20] Step 92
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:15:30] Step 93
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 17]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:15:40] Step 94
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:15:50] Step 95
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:16:00] Step 96
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:16:10] Step 97
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:16:20] Step 98
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:16:30] Step 99
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:16:40] Step 100
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:16:50] Step 101
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:17:00] Step 102
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:17:10] Step 103
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:17:20] Step 104
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:17:30] Step 105
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [72, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:17:40] Step 106
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [72, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:17:50] Step 107
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:18:00] Step 108
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:18:10] Step 109
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:18:20] Step 110
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:18:30] Step 111
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:18:40] Step 112
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:18:50] Step 113
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:19:00] Step 114
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:19:10] Step 115
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:19:20] Step 116
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:19:30] Step 117
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:19:40] Step 118
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:19:50] Step 119
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:20:00] Step 120
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [72, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:20:10] Step 121
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:20:20] Step 122
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:20:30] Step 123
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:20:40] Step 124
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:20:50] Step 125
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:21:00] Step 126
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:21:10] Step 127
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:21:20] Step 128
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:21:30] Step 129
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:21:40] Step 130
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:21:50] Step 131
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:22:00] Step 132
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:22:10] Step 133
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:22:20] Step 134
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:22:30] Step 135
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:22:40] Step 136
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:22:50] Step 137
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:23:00] Step 138
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:23:10] Step 139
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:23:20] Step 140
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:23:30] Step 141
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:23:40] Step 142
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:23:50] Step 143
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [120, 41]
+  - An Lushan -> conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur at [127, 37]
+[0742-02-15 18:24:00] Step 144
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 37]
+[0742-02-15 18:24:10] Step 145
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 37]
+[0742-02-15 18:24:20] Step 146
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 37]
+[0742-02-15 18:24:30] Step 147
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 37]
+[0742-02-15 18:24:40] Step 148
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 37]
+[0742-02-15 18:24:50] Step 149
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 37]
+[0742-02-15 18:25:00] Step 150
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 37]
+[0742-02-15 18:25:10] Step 151
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 37]
+[0742-02-15 18:25:20] Step 152
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 37]
+[0742-02-15 18:25:30] Step 153
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 37]
+[0742-02-15 18:25:40] Step 154
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 37]
+[0742-02-15 18:25:50] Step 155
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 41]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 38]
+[0742-02-15 18:26:00] Step 156
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 40]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 39]
+[0742-02-15 18:26:10] Step 157
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 39]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 39]
+[0742-02-15 18:26:20] Step 158
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 38]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 39]
+[0742-02-15 18:26:30] Step 159
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 39]
+[0742-02-15 18:26:40] Step 160
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 39]
+[0742-02-15 18:26:50] Step 161
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 39]
+[0742-02-15 18:27:00] Step 162
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 39]
+[0742-02-15 18:27:10] Step 163
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 35]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 39]
+[0742-02-15 18:27:20] Step 164
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [72, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 34]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 39]
+[0742-02-15 18:27:30] Step 165
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [72, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 33]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 39]
+[0742-02-15 18:27:40] Step 166
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 32]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 39]
+[0742-02-15 18:27:50] Step 167
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [131, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 39]
+[0742-02-15 18:28:00] Step 168
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 40]
+[0742-02-15 18:28:10] Step 169
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 41]
+[0742-02-15 18:28:20] Step 170
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 40]
+[0742-02-15 18:28:30] Step 171
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 39]
+[0742-02-15 18:28:40] Step 172
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 38]
+[0742-02-15 18:28:50] Step 173
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 31]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 37]
+[0742-02-15 18:29:00] Step 174
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 32]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 37]
+[0742-02-15 18:29:10] Step 175
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 33]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 37]
+[0742-02-15 18:29:20] Step 176
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 34]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 37]
+[0742-02-15 18:29:30] Step 177
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 17]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 35]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 37]
+[0742-02-15 18:29:40] Step 178
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 18]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 37]
+[0742-02-15 18:29:50] Step 179
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 17]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 37]
+[0742-02-15 18:30:00] Step 180
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 37]
+[0742-02-15 18:30:10] Step 181
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 37]
+[0742-02-15 18:30:20] Step 182
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 37]
+[0742-02-15 18:30:30] Step 183
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 37]
+[0742-02-15 18:30:40] Step 184
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 37]
+[0742-02-15 18:30:50] Step 185
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 37]
+[0742-02-15 18:31:00] Step 186
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 38]
+[0742-02-15 18:31:10] Step 187
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 36]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 39]
+[0742-02-15 18:31:20] Step 188
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 40]
+[0742-02-15 18:31:30] Step 189
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 38]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 39]
+[0742-02-15 18:31:40] Step 190
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 39]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 39]
+[0742-02-15 18:31:50] Step 191
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [117, 38]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 39]
+[0742-02-15 18:32:00] Step 192
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 38]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 39]
+[0742-02-15 18:32:10] Step 193
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [118, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 39]
+[0742-02-15 18:32:20] Step 194
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [119, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 39]
+[0742-02-15 18:32:30] Step 195
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [78, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [120, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 39]
+[0742-02-15 18:32:40] Step 196
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 14]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [121, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [125, 39]
+[0742-02-15 18:32:50] Step 197
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 15]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [122, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 39]
+[0742-02-15 18:33:00] Step 198
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [79, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 39]
+[0742-02-15 18:33:10] Step 199
+  - Li Mingzhu -> asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [80, 16]
+  - Chen Zian -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 37]
+  - An Lushan -> asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 39]

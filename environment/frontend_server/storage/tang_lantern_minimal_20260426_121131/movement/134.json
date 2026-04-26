@@ -1,0 +1,164 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        75,
+        15
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        120,
+        41
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur",
+      "chat": [
+        [
+          "Chen Zian",
+          "Greetings, sir. I hope I did not startle you - I was resting when I happened to glimpse you here. Forgive my impertinence, but might I ask your name and profession? I am Chen Zian, a scholar from the provinces, preparing"
+        ],
+        [
+          "An Lushan",
+          "Greetings, young scholar. No need for apologies - I was merely resting under the trees. I am An Lushan, a merchant of foreign goods - spices, glassware, and textiles from the Silk Road. I see you are a man of learning. T"
+        ],
+        [
+          "Chen Zian",
+          "A merchant of foreign goods from the Silk Road! How fascinating. I must confess, as a scholar preparing for the imperial examination, I am most curious about matters of the court. Do your travels bring you into contact w"
+        ],
+        [
+          "An Lushan",
+          "Indeed, young scholar, my trade does bring me to the attention of various officials and occasionally the court itself. The foreign glassware and spices are prized by many a gentleman of means. But tell me more of your st"
+        ],
+        [
+          "Chen Zian",
+          "Thank you for your curiosity, sir. I study the Confucian classics and practice regulated verse, hoping to distinguish myself in the imperial examination. Since you mention contact with officials and the court, I wonder -"
+        ],
+        [
+          "An Lushan",
+          "The court indeed holds many opportunities for a merchant such as myself. But enough of my humble trade - you speak of the imperial examination, the path to officialdom. A scholar of your talents surely has bright prospec"
+        ],
+        [
+          "Chen Zian",
+          "You are too kind, sir. I am still a long way from such prospects, and much study remains. Since your trade brings you into contact with officials and the court, I am most curious - do you happen to hear any rumors or kno"
+        ],
+        [
+          "An Lushan",
+          "Rumors? Well, young scholar, the court is always bustling with whispers - who rises, who falls, which policies favor which goods. But such talk is delicate, you understand. Perhaps we could discuss this further over tea?"
+        ],
+        [
+          "Chen Zian",
+          "That is most generous of you, sir. I would be honored to share tea with you and hear more of what you have observed. As a provincial scholar unfamiliar with the capital's ways, any insight you might share about the court"
+        ],
+        [
+          "An Lushan",
+          "Indeed, I would be honored to share what I know over tea. A scholar like yourself must have many connections among the educated families of the city. Perhaps you could recommend a good teahouse? And in return, I could te"
+        ],
+        [
+          "Chen Zian",
+          "Tea would be most welcome, sir. I know a pleasant tea house not far from here - the establishment run by Li Mingzhu, if you are familiar with it. There we could speak more freely. I am particularly interested in any insi"
+        ],
+        [
+          "An Lushan",
+          "But tell me, young scholar - as you study for the examinations, you must know many families of means, yes? Perhaps even some who appreciate foreign wares? A merchant like myself always seeks gentlemen who recognize quali"
+        ],
+        [
+          "Chen Zian",
+          "Tea would be most welcome, sir. I would be honored to hear more of what you have observed about court matters. As I prepare for the examinations, any insight into the preferences of those who judge such papers would be i"
+        ],
+        [
+          "An Lushan",
+          "There is a fine tea house not far from here, run by a lady named Li Mingzhu. The tea is good and the atmosphere pleasant for conversation. If you have time, we could continue our talk there. A scholar such as yourself mi"
+        ],
+        [
+          "Chen Zian",
+          "That is most generous of you, sir. I would be honored to join you for tea. There is so much I wish to learn - not merely rumors, but also matters pertaining to the imperial examination itself. I have wondered whether the"
+        ],
+        [
+          "An Lushan",
+          "My treat, of course. There is a fine tea house not far from here - the White Jade Tea House, run by a woman called Li Mingzhu. The tea is excellent and the setting private enough for good conversation. I would be honored"
+        ]
+      ]
+    },
+    "An Lushan": {
+      "movement": [
+        127,
+        37
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about Chen Zian, a provincial scholar preparing for the imperial examination, meeting An Lushan, a Silk Road merchant dealing in foreign goods, with Chen Zian asking about court rumors and An Lushan suggesting they discuss it fur",
+      "chat": [
+        [
+          "Chen Zian",
+          "Greetings, sir. I hope I did not startle you - I was resting when I happened to glimpse you here. Forgive my impertinence, but might I ask your name and profession? I am Chen Zian, a scholar from the provinces, preparing"
+        ],
+        [
+          "An Lushan",
+          "Greetings, young scholar. No need for apologies - I was merely resting under the trees. I am An Lushan, a merchant of foreign goods - spices, glassware, and textiles from the Silk Road. I see you are a man of learning. T"
+        ],
+        [
+          "Chen Zian",
+          "A merchant of foreign goods from the Silk Road! How fascinating. I must confess, as a scholar preparing for the imperial examination, I am most curious about matters of the court. Do your travels bring you into contact w"
+        ],
+        [
+          "An Lushan",
+          "Indeed, young scholar, my trade does bring me to the attention of various officials and occasionally the court itself. The foreign glassware and spices are prized by many a gentleman of means. But tell me more of your st"
+        ],
+        [
+          "Chen Zian",
+          "Thank you for your curiosity, sir. I study the Confucian classics and practice regulated verse, hoping to distinguish myself in the imperial examination. Since you mention contact with officials and the court, I wonder -"
+        ],
+        [
+          "An Lushan",
+          "The court indeed holds many opportunities for a merchant such as myself. But enough of my humble trade - you speak of the imperial examination, the path to officialdom. A scholar of your talents surely has bright prospec"
+        ],
+        [
+          "Chen Zian",
+          "You are too kind, sir. I am still a long way from such prospects, and much study remains. Since your trade brings you into contact with officials and the court, I am most curious - do you happen to hear any rumors or kno"
+        ],
+        [
+          "An Lushan",
+          "Rumors? Well, young scholar, the court is always bustling with whispers - who rises, who falls, which policies favor which goods. But such talk is delicate, you understand. Perhaps we could discuss this further over tea?"
+        ],
+        [
+          "Chen Zian",
+          "That is most generous of you, sir. I would be honored to share tea with you and hear more of what you have observed. As a provincial scholar unfamiliar with the capital's ways, any insight you might share about the court"
+        ],
+        [
+          "An Lushan",
+          "Indeed, I would be honored to share what I know over tea. A scholar like yourself must have many connections among the educated families of the city. Perhaps you could recommend a good teahouse? And in return, I could te"
+        ],
+        [
+          "Chen Zian",
+          "Tea would be most welcome, sir. I know a pleasant tea house not far from here - the establishment run by Li Mingzhu, if you are familiar with it. There we could speak more freely. I am particularly interested in any insi"
+        ],
+        [
+          "An Lushan",
+          "But tell me, young scholar - as you study for the examinations, you must know many families of means, yes? Perhaps even some who appreciate foreign wares? A merchant like myself always seeks gentlemen who recognize quali"
+        ],
+        [
+          "Chen Zian",
+          "Tea would be most welcome, sir. I would be honored to hear more of what you have observed about court matters. As I prepare for the examinations, any insight into the preferences of those who judge such papers would be i"
+        ],
+        [
+          "An Lushan",
+          "There is a fine tea house not far from here, run by a lady named Li Mingzhu. The tea is good and the atmosphere pleasant for conversation. If you have time, we could continue our talk there. A scholar such as yourself mi"
+        ],
+        [
+          "Chen Zian",
+          "That is most generous of you, sir. I would be honored to join you for tea. There is so much I wish to learn - not merely rumors, but also matters pertaining to the imperial examination itself. I have wondered whether the"
+        ],
+        [
+          "An Lushan",
+          "My treat, of course. There is a fine tea house not far from here - the White Jade Tea House, run by a woman called Li Mingzhu. The tea is excellent and the setting private enough for good conversation. I would be honored"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 18:22:20"
+  }
+}
