@@ -10,6 +10,7 @@ import re
 from collections import defaultdict
 
 from utils import fs_storage
+from utils import clean_action_description, clean_generated_text, fallback_description, sanitize_chat_rows
 from global_methods import copyanything, create_folder_if_not_there
 from maze import Maze
 from persona.persona import Persona
@@ -326,26 +327,67 @@ def _prepare_simulation(sim_code):
 
 
 def _serialize_memory_node(node):
+  subject = clean_generated_text(
+    node.subject,
+    fallback="unknown",
+    allow_random=False,
+    allow_ellipsis=False,
+    max_len=240,
+  ).replace("<random>", "unspecified spot")
+  predicate = clean_generated_text(
+    node.predicate,
+    fallback="is",
+    allow_random=False,
+    allow_ellipsis=False,
+    max_len=120,
+  ).replace("<random>", "is")
+  obj = clean_generated_text(
+    node.object,
+    fallback="idle",
+    allow_random=False,
+    allow_ellipsis=False,
+    max_len=240,
+  ).replace("<random>", "unspecified spot")
   return {
     "node_id": node.node_id,
     "type": node.type,
     "created": node.created.strftime("%Y-%m-%d %H:%M:%S"),
     "expiration": node.expiration.strftime("%Y-%m-%d %H:%M:%S") if node.expiration else None,
-    "subject": node.subject,
-    "predicate": node.predicate,
-    "object": node.object,
-    "description": node.description,
+    "subject": subject,
+    "predicate": predicate,
+    "object": obj,
+    "description": clean_generated_text(
+      node.description,
+      fallback=fallback_description(subject, predicate, obj, "idle"),
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    ).replace("<random>", "unspecified spot"),
     "poignancy": node.poignancy,
-    "keywords": sorted(node.keywords),
-    "filling": node.filling,
+    "keywords": sorted({
+      clean_generated_text(keyword, fallback="", allow_random=False, allow_ellipsis=False, max_len=80).replace("<random>", "unspecified spot")
+      for keyword in node.keywords
+      if clean_generated_text(keyword, fallback="", allow_random=False, allow_ellipsis=False, max_len=80)
+    }),
+    "filling": sanitize_chat_rows(node.filling, [node.subject, node.object], max_turns=16) if node.filling else node.filling,
   }
 
 
 def _serialize_persona_state(persona, position):
   return {
     "tile": [position[0], position[1]],
-    "current_action": persona.scratch.act_description,
-    "action_address": persona.scratch.act_address,
+    "current_action": clean_action_description(
+      persona.scratch.act_description,
+      persona_name=persona.name,
+      fallback="going about their routine",
+    ),
+    "action_address": clean_generated_text(
+      persona.scratch.act_address,
+      fallback="unspecified location",
+      allow_random=True,
+      allow_ellipsis=False,
+      max_len=240,
+    ).replace("<random>", "unspecified spot"),
     "chatting_with": persona.scratch.chatting_with,
   }
 
@@ -463,8 +505,12 @@ def run_simulation(sim_code, requested_steps):
       movements["persona"][persona_name] = {
         "movement": [next_tile[0], next_tile[1]],
         "pronunciatio": pronunciatio,
-        "description": description,
-        "chat": persona.scratch.chat,
+        "description": clean_action_description(
+          description,
+          persona_name=persona_name,
+          fallback="going about their routine",
+        ).replace("<random>", "unspecified spot"),
+        "chat": sanitize_chat_rows(persona.scratch.chat, [persona_name, persona.scratch.chatting_with or "Guest"], max_turns=16) if persona.scratch.chat else None,
       }
 
       if persona.scratch.chat and persona.scratch.chatting_with:
@@ -478,7 +524,10 @@ def run_simulation(sim_code, requested_steps):
             "step": step,
             "time": curr_time.strftime("%Y-%m-%d %H:%M:%S"),
             "participants": list(signature[0]),
-            "transcript": [{"speaker": row[0], "utterance": row[1]} for row in persona.scratch.chat],
+            "transcript": [
+              {"speaker": row[0], "utterance": row[1]}
+              for row in sanitize_chat_rows(persona.scratch.chat, list(signature[0]), max_turns=16)
+            ],
           })
           timeline_lines.append(
             f"[{curr_time.strftime('%Y-%m-%d %H:%M:%S')}] Conversation: "

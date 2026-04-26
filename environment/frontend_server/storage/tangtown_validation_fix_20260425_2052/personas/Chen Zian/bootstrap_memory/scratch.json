@@ -1,0 +1,104 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:01:30",
+  "curr_tile": [
+    123,
+    50
+  ],
+  "daily_plan_req": "Pass the imperial examination by reviewing classical texts, practicing poetry, and seeking advice from educated acquaintances on court politics and essay style.",
+  "name": "Chen Zian",
+  "first_name": "Chen",
+  "last_name": "Zian",
+  "age": 24,
+  "innate": "ambitious, thoughtful, disciplined; prone to self-doubt about his literary elegance",
+  "learned": "Chen Zian is a scholar from a provincial family who has come to Chang'an to sit the imperial examination. He is steeped in Confucian classics and regulated verse, and he studies diligently for advancement.",
+  "currently": "Chen Zian is reviewing classical texts, practicing poetry, and seeking advice on court politics and essay style before the imperial examination. In this simulation, the dormitory and cafe spaces are interpreted as a scholar's inn and tea-house circuit near West Market.",
+  "lifestyle": "Chen Zian studies late, rises after dawn, copies passages carefully, and tries to balance ambition with calm before the examinations.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 127,
+  "importance_ele_n": 11,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "TOKEN LIMIT EXCEEDED (on the way to TOKEN LIMIT EXCEEDED))",
+      1440
+    ],
+    [
+      "TOKEN LIMIT EXCEEDED (conversing about evening plans in Chang'an)",
+      1
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "TOKEN LIMIT EXCEEDED",
+      1440
+    ]
+  ],
+  "act_address": "<persona> An Lushan",
+  "act_start_time": "February 15, 0742, 18:01:20",
+  "act_duration": 1,
+  "act_description": "conversing about evening plans in Chang'an",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Chen Zian",
+    "chat with",
+    "An Lushan"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "An Lushan",
+  "chat": [
+    [
+      "Chen Zian",
+      "Good evening. I should return to my work soon."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "An Lushan": 800
+  },
+  "chatting_end_time": "February 15, 0742, 18:03:00",
+  "act_path_set": true,
+  "planned_path": [
+    [
+      125,
+      50
+    ],
+    [
+      126,
+      50
+    ],
+    [
+      127,
+      50
+    ],
+    [
+      128,
+      50
+    ]
+  ]
+}

@@ -11,6 +11,7 @@ from operator import itemgetter
 from global_methods import *
 from persona.prompt_template.gpt_structure import *
 from persona.prompt_template.run_gpt_prompt import *
+from utils import has_invalid_generated_text
 
 def generate_poig_score(persona, event_type, description): 
   if "is idle" in description: 
@@ -152,7 +153,9 @@ def perceive(persona, maze):
       # If we observe the persona's self chat, we include that in the memory
       # of the persona here. 
       chat_node_ids = []
-      if p_event[0] == f"{persona.name}" and p_event[1] == "chat with": 
+      if (p_event[0] == f"{persona.name}" and p_event[1] == "chat with"
+          and not has_invalid_generated_text(persona.scratch.act_description)
+          and persona.scratch.chat):
         curr_event = persona.scratch.act_event
         if persona.scratch.act_description in persona.a_mem.embeddings: 
           chat_embedding = persona.a_mem.embeddings[
@@ -184,7 +187,6 @@ def perceive(persona, maze):
 
 
   
-
 
 
 

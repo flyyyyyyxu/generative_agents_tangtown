@@ -1,0 +1,41 @@
+[0742-02-15 18:00:00] Step 0
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [73, 14]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [123, 56]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [127, 46]
+[0742-02-15 18:00:10] Step 1
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [74, 14]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [123, 55]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [128, 46]
+[0742-02-15 18:00:20] Step 2
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [75, 14]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [123, 54]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [129, 46]
+[0742-02-15 18:00:30] Step 3
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [76, 14]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [124, 54]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [130, 46]
+[0742-02-15 18:00:40] Step 4
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [77, 14]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [124, 53]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [131, 46]
+[0742-02-15 18:00:50] Step 5
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [77, 15]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [124, 52]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [131, 47]
+[0742-02-15 18:01:00] Step 6
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [77, 15]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [124, 51]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [131, 48]
+[0742-02-15 18:01:10] Step 7
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [78, 15]
+  - Chen Zian -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:unspecified spot at [124, 50]
+  - An Lushan -> going about their routine @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator at [131, 49]
+[0742-02-15 18:01:20] Conversation: An Lushan & Chen Zian
+[0742-02-15 18:01:20] Step 8
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [79, 15]
+  - Chen Zian -> conversing about evening plans in Chang'an @ <persona> An Lushan at [125, 50]
+  - An Lushan -> conversing about evening plans in Chang'an @ <persona> Chen Zian at [131, 50]
+[0742-02-15 18:01:30] Step 9
+  - Li Mingzhu -> going about their routine @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot at [79, 16]
+  - Chen Zian -> conversing about evening plans in Chang'an @ <persona> An Lushan at [126, 50]
+  - An Lushan -> conversing about evening plans in Chang'an @ <persona> Chen Zian at [130, 50]

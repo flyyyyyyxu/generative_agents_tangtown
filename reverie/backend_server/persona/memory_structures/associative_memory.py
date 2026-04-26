@@ -14,6 +14,7 @@ import json
 import datetime
 
 from global_methods import *
+from utils import clean_generated_text, fallback_description, sanitize_chat_rows
 
 
 class ConceptNode: 
@@ -161,16 +162,30 @@ class AssociativeMemory:
     depth = 0
 
     # Node type specific clean up. 
+    description = clean_generated_text(
+      description,
+      fallback=fallback_description(s, p, o, "idle"),
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    )
     if "(" in description: 
       description = (" ".join(description.split()[:3]) 
                      + " " 
                      +  description.split("(")[-1][:-1])
+    embedding_key = clean_generated_text(
+      embedding_pair[0],
+      fallback=description,
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    )
 
     # Creating the <ConceptNode> object.
     node = ConceptNode(node_id, node_count, type_count, node_type, depth,
                        created, expiration, 
                        s, p, o, 
-                       description, embedding_pair[0], 
+                       description, embedding_key, 
                        poignancy, keywords, filling)
 
     # Creating various dictionary cache for fast access. 
@@ -191,7 +206,7 @@ class AssociativeMemory:
         else: 
           self.kw_strength_event[kw] = 1
 
-    self.embeddings[embedding_pair[0]] = embedding_pair[1]
+    self.embeddings[embedding_key] = embedding_pair[1]
 
     return node
 
@@ -211,11 +226,26 @@ class AssociativeMemory:
     except: 
       pass
 
+    description = clean_generated_text(
+      description,
+      fallback=fallback_description(s, p, o, "thought"),
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    )
+    embedding_key = clean_generated_text(
+      embedding_pair[0],
+      fallback=description,
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    )
+
     # Creating the <ConceptNode> object.
     node = ConceptNode(node_id, node_count, type_count, node_type, depth,
                        created, expiration, 
                        s, p, o, 
-                       description, embedding_pair[0], poignancy, keywords, filling)
+                       description, embedding_key, poignancy, keywords, filling)
 
     # Creating various dictionary cache for fast access. 
     self.seq_thought[0:0] = [node]
@@ -235,7 +265,7 @@ class AssociativeMemory:
         else: 
           self.kw_strength_thought[kw] = 1
 
-    self.embeddings[embedding_pair[0]] = embedding_pair[1]
+    self.embeddings[embedding_key] = embedding_pair[1]
 
     return node
 
@@ -250,11 +280,27 @@ class AssociativeMemory:
     node_id = f"node_{str(node_count)}"
     depth = 0
 
+    description = clean_generated_text(
+      description,
+      fallback=fallback_description(s, p, o, "briefly talking"),
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    )
+    filling = sanitize_chat_rows(filling, [s, o], max_turns=16)
+    embedding_key = clean_generated_text(
+      embedding_pair[0],
+      fallback=description,
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    )
+
     # Creating the <ConceptNode> object.
     node = ConceptNode(node_id, node_count, type_count, node_type, depth,
                        created, expiration, 
                        s, p, o, 
-                       description, embedding_pair[0], poignancy, keywords, filling)
+                       description, embedding_key, poignancy, keywords, filling)
 
     # Creating various dictionary cache for fast access. 
     self.seq_chat[0:0] = [node]
@@ -266,7 +312,7 @@ class AssociativeMemory:
         self.kw_to_chat[kw] = [node]
     self.id_to_node[node_id] = node 
 
-    self.embeddings[embedding_pair[0]] = embedding_pair[1]
+    self.embeddings[embedding_key] = embedding_pair[1]
         
     return node
 
@@ -331,7 +377,6 @@ class AssociativeMemory:
       return self.kw_to_chat[target_persona_name.lower()][0]
     else: 
       return False
-
 
 
 

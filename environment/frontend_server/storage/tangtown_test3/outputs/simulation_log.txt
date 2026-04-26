@@ -1,4 +1,0 @@
-[0742-02-15 18:00:00] Step 0
-  - Li Mingzhu -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Isabella Rodriguez's apartment:kitchen:<random> at [73, 14]
-  - Chen Zian -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:<random> at [123, 57]
-  - An Lushan -> TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED) (TOKEN LIMIT EXCEEDED (TOKEN LIMIT EXCEEDED)) @ the Ville:Dorm for Oak Hill College:kitchen:kitchen sink at [127, 46]

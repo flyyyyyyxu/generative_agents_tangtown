@@ -1,0 +1,100 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:01:30",
+  "curr_tile": [
+    131,
+    50
+  ],
+  "daily_plan_req": "Sell a new shipment of foreign glass cups and aromatic spices at West Market, and secure reliable local partners before the caravan departs Chang'an.",
+  "name": "An Lushan",
+  "first_name": "An",
+  "last_name": "Lushan",
+  "age": 38,
+  "innate": "shrewd, sociable, adaptive; respects Tang law while always alert to profitable opportunities",
+  "learned": "An Lushan is a Sogdian merchant living in Chang'an, trading in spices, glassware, horses, and textiles sourced from the Silk Road. He is multilingual and often bridges foreign traders with Chinese buyers.",
+  "currently": "An Lushan is trying to sell a new shipment of foreign glass cups and aromatic spices at West Market while securing dependable local partners before his caravan departs. In this simulation, his lodging and social haunts are conceptually mapped onto the foreign quarter inn and tavern.",
+  "lifestyle": "An Lushan rises early for market business, spends the day negotiating and inspecting goods, and keeps evenings free for alliances, feasts, and deals.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 130,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "TOKEN LIMIT EXCEEDED (on the way to TOKEN LIMIT EXCEEDED))",
+      1440
+    ],
+    [
+      "TOKEN LIMIT EXCEEDED (conversing about evening plans in Chang'an)",
+      1
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "TOKEN LIMIT EXCEEDED",
+      1440
+    ]
+  ],
+  "act_address": "<persona> Chen Zian",
+  "act_start_time": "February 15, 0742, 18:01:10",
+  "act_duration": 1,
+  "act_description": "conversing about evening plans in Chang'an",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "An Lushan",
+    "chat with",
+    "Chen Zian"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Chen Zian",
+  "chat": [
+    [
+      "Chen Zian",
+      "Good evening. I should return to my work soon."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Chen Zian": 800
+  },
+  "chatting_end_time": "February 15, 0742, 18:03:00",
+  "act_path_set": true,
+  "planned_path": [
+    [
+      129,
+      50
+    ],
+    [
+      128,
+      50
+    ],
+    [
+      127,
+      50
+    ]
+  ]
+}

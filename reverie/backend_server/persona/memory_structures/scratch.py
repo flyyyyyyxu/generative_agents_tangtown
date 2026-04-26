@@ -10,6 +10,7 @@ import sys
 sys.path.append('../../')
 
 from global_methods import *
+from utils import clean_action_description, clean_generated_text, fallback_description, sanitize_chat_rows
 
 class Scratch: 
   def __init__(self, f_saved): 
@@ -495,19 +496,35 @@ class Scratch:
                      act_obj_pronunciatio, 
                      act_obj_event, 
                      act_start_time=None): 
-    self.act_address = action_address
+    self.act_address = clean_generated_text(
+      action_address,
+      fallback="",
+      allow_random=True,
+      allow_ellipsis=False,
+      max_len=240,
+    )
     self.act_duration = action_duration
-    self.act_description = action_description
+    self.act_description = clean_action_description(
+      action_description,
+      persona_name=self.name,
+      fallback="going about their routine",
+    )
     self.act_pronunciatio = action_pronunciatio
     self.act_event = action_event
 
     self.chatting_with = chatting_with
-    self.chat = chat 
+    self.chat = sanitize_chat_rows(chat, [self.name, chatting_with or "Guest"], max_turns=16) if chat else None
     if chatting_with_buffer: 
       self.chatting_with_buffer.update(chatting_with_buffer)
     self.chatting_end_time = chatting_end_time
 
-    self.act_obj_description = act_obj_description
+    self.act_obj_description = clean_generated_text(
+      act_obj_description,
+      fallback=fallback_description(self.act_address, act_obj_event[1], act_obj_event[2], "being used"),
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=240,
+    ) if act_obj_description else None
     self.act_obj_pronunciatio = act_obj_pronunciatio
     self.act_obj_event = act_obj_event
     
@@ -615,8 +632,6 @@ class Scratch:
       minute = curr_min_sum%60
       ret += f"{hour:02}:{minute:02} || {row[0]}\n"
     return ret
-
-
 
 
 

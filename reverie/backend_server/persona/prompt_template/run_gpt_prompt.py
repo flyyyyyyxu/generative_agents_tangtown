@@ -15,6 +15,13 @@ sys.path.append('../../')
 from global_methods import *
 from persona.prompt_template.gpt_structure import *
 from persona.prompt_template.print_prompt import *
+from utils import (
+  clean_generated_text,
+  compact_generated_text,
+  fallback_description,
+  has_invalid_generated_text,
+  sanitize_chat_rows,
+)
 
 def get_random_alphanumeric(i=6, j=6): 
   """
@@ -30,6 +37,12 @@ def get_random_alphanumeric(i=6, j=6):
   k = random.randint(i, j)
   x = ''.join(random.choices(string.ascii_letters + string.digits, k=k))
   return x
+
+
+def _compact_multiline_text(value, max_lines=6, max_len=700):
+  lines = [compact_generated_text(i.strip(), 180) for i in str(value).splitlines() if i.strip()]
+  text = "\n".join(lines[:max_lines])
+  return compact_generated_text(text, max_len)
 
 
 ##############################################################################
@@ -1513,6 +1526,8 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
     init_persona_thought = ""
     for i in init_persona_thought_nodes: 
       init_persona_thought += f"-- {i.description}\n"
+      if len(init_persona_thought) > 500:
+        break
 
     target_persona_thought_nodes = target_persona.a_mem.retrieve_relevant_thoughts(init_persona.scratch.act_event[0],
                                 init_persona.scratch.act_event[1],
@@ -1520,6 +1535,8 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
     target_persona_thought = ""
     for i in target_persona_thought_nodes: 
       target_persona_thought += f"-- {i.description}\n"
+      if len(target_persona_thought) > 500:
+        break
 
     init_persona_curr_desc = ""
     if init_persona.scratch.planned_path: 
@@ -1537,23 +1554,23 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
     curr_loc = curr_loc["arena"]
 
     prompt_input = []
-    prompt_input += [init_persona.scratch.get_str_iss()]
-    prompt_input += [target_persona.scratch.get_str_iss()]
+    prompt_input += [_compact_multiline_text(init_persona.scratch.get_str_iss(), max_len=900)]
+    prompt_input += [_compact_multiline_text(target_persona.scratch.get_str_iss(), max_len=900)]
 
     prompt_input += [init_persona.name]
     prompt_input += [target_persona.name]
-    prompt_input += [init_persona_thought]
+    prompt_input += [_compact_multiline_text(init_persona_thought, max_len=500)]
 
     prompt_input += [target_persona.name]
     prompt_input += [init_persona.name]
-    prompt_input += [target_persona_thought]
+    prompt_input += [_compact_multiline_text(target_persona_thought, max_len=500)]
 
     prompt_input += [init_persona.scratch.curr_time.strftime("%B %d, %Y, %H:%M:%S")]
 
-    prompt_input += [init_persona_curr_desc]
-    prompt_input += [target_persona_curr_desc]
+    prompt_input += [compact_generated_text(init_persona_curr_desc, 180)]
+    prompt_input += [compact_generated_text(target_persona_curr_desc, 180)]
 
-    prompt_input += [prev_convo_insert]
+    prompt_input += [_compact_multiline_text(prev_convo_insert, max_lines=8, max_len=600)]
 
     prompt_input += [init_persona.name]
     prompt_input += [target_persona.name]
@@ -1578,20 +1595,30 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
 
     ret = []
     for count, speaker in enumerate(speaker_order): 
-      ret += [[speaker, content[count]]]
+      if count >= len(content):
+        break
+      ret += [[speaker, clean_generated_text(content[count], fallback="Good evening.", max_len=220)]]
+
+    ret = sanitize_chat_rows(ret, [persona.name, target_persona.name], max_turns=8)
+    if not ret:
+      raise ValueError("Empty conversation")
 
     return ret
 
   def __func_validate(gpt_response, prompt=""): 
     try: 
-      __func_clean_up(gpt_response, prompt)
+      cleaned = __func_clean_up(gpt_response, prompt)
+      if not cleaned:
+        return False
       return True
     except:
       return False 
 
   def get_fail_safe(init_persona, target_persona): 
-    convo = [[init_persona.name, "Hi!"], 
-             [target_persona.name, "Hi!"]]
+    convo = [
+      [init_persona.name, "Good evening. How has the festival been for you?"],
+      [target_persona.name, "Busy, but lively. I am hoping the evening goes well."],
+    ]
     return convo
 
 
@@ -1625,25 +1652,31 @@ def run_gpt_prompt_create_conversation(persona, target_persona, curr_loc,
 def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None, verbose=False): 
   def create_prompt_input(conversation, test_input=None): 
     convo_str = ""
-    for row in conversation: 
+    for row in sanitize_chat_rows(conversation, max_turns=8): 
       convo_str += f'{row[0]}: "{row[1]}"\n'
 
     prompt_input = [convo_str]
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    ret = "conversing about " + gpt_response.strip()
+    clean = clean_generated_text(gpt_response, fallback="their evening plans", max_len=160)
+    ret = "conversing about " + clean
     return ret
 
   def __func_validate(gpt_response, prompt=""): 
     try: 
-      __func_clean_up(gpt_response, prompt)
+      cleaned = __func_clean_up(gpt_response, prompt)
+      if has_invalid_generated_text(cleaned):
+        return False
       return True
     except:
       return False 
 
   def get_fail_safe(): 
-    return "conversing with a housemate about morning greetings"
+    participants = sorted({row[0] for row in sanitize_chat_rows(conversation, max_turns=8)})
+    if len(participants) >= 2:
+      return f"conversing about evening plans in Chang'an between {participants[0]} and {participants[1]}"
+    return "conversing about evening plans in Chang'an"
 
 
   # ChatGPT Plugin ===========================================================
@@ -1670,7 +1703,7 @@ def run_gpt_prompt_summarize_conversation(persona, conversation, test_input=None
   special_instruction = "The output must continue the sentence above by filling in the <fill in> tag. Don't start with 'this is a conversation about...' Just finish the sentence but do not miss any important details (including who are chatting)." ########
   fail_safe = get_fail_safe() ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
-                                          __chat_func_validate, __chat_func_clean_up, True)
+                                          __chat_func_validate, __chat_func_clean_up, False)
   if output != False: 
     return output, [output, prompt, gpt_param, prompt_input, fail_safe]
   # ChatGPT Plugin ===========================================================
@@ -2579,10 +2612,12 @@ def run_gpt_prompt_summarize_ideas(persona, statements, question, test_input=Non
 
 def run_gpt_prompt_generate_next_convo_line(persona, interlocutor_desc, prev_convo, retrieved_summary, test_input=None, verbose=False): 
   def create_prompt_input(persona, interlocutor_desc, prev_convo, retrieved_summary, test_input=None): 
+    prev_convo = _compact_multiline_text(prev_convo, max_lines=6, max_len=500)
+    retrieved_summary = compact_generated_text(retrieved_summary, 220)
     prompt_input = [persona.scratch.name, 
-                    persona.scratch.get_str_iss(),
+                    _compact_multiline_text(persona.scratch.get_str_iss(), max_len=700),
                     persona.scratch.name, 
-                    interlocutor_desc, 
+                    compact_generated_text(interlocutor_desc, 180), 
                     prev_convo, 
                     persona.scratch.name,
                     retrieved_summary, 
@@ -2590,17 +2625,20 @@ def run_gpt_prompt_generate_next_convo_line(persona, interlocutor_desc, prev_con
     return prompt_input
   
   def __func_clean_up(gpt_response, prompt=""):
-    return gpt_response.split('"')[0].strip()
+    line = gpt_response.split('"')[0].strip()
+    return clean_generated_text(line, fallback="Good evening.", max_len=220)
 
   def __func_validate(gpt_response, prompt=""): 
     try: 
-      __func_clean_up(gpt_response, prompt)
+      cleaned = __func_clean_up(gpt_response, prompt)
+      if has_invalid_generated_text(cleaned):
+        return False
       return True
     except:
       return False 
 
   def get_fail_safe(): 
-    return "..."
+    return "Good evening. I hope the festival is treating you well."
 
 
 
@@ -2873,8 +2911,6 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
     if persona.a_mem.seq_chat: 
       if int((persona.scratch.curr_time - persona.a_mem.seq_chat[-1].created).total_seconds()/60) > 480: 
         prev_convo_insert = ""
-    print (prev_convo_insert)
-
     curr_sector = f"{maze.access_tile(persona.scratch.curr_tile)['sector']}"
     curr_arena= f"{maze.access_tile(persona.scratch.curr_tile)['arena']}"
     curr_location = f"{curr_arena} in {curr_sector}"
@@ -2883,17 +2919,21 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
     for key, vals in retrieved.items(): 
       for v in vals: 
         retrieved_str += f"- {v.description}\n"
+        if len(retrieved_str) > 700:
+          break
+      if len(retrieved_str) > 700:
+        break
 
 
     convo_str = ""
-    for i in curr_chat:
+    for i in sanitize_chat_rows(curr_chat, [init_persona.scratch.name, target_persona.scratch.name], max_turns=8):
       convo_str += ": ".join(i) + "\n"
     if convo_str == "": 
       convo_str = "[The conversation has not started yet -- start it!]"
 
-    init_iss = f"Here is Here is a brief description of {init_persona.scratch.name}.\n{init_persona.scratch.get_str_iss()}"
-    prompt_input = [init_iss, init_persona.scratch.name, retrieved_str, prev_convo_insert,
-      curr_location, curr_context, init_persona.scratch.name, target_persona.scratch.name,
+    init_iss = f"Here is a brief description of {init_persona.scratch.name}.\n{_compact_multiline_text(init_persona.scratch.get_str_iss(), max_len=700)}"
+    prompt_input = [init_iss, init_persona.scratch.name, _compact_multiline_text(retrieved_str, max_lines=8, max_len=700), _compact_multiline_text(prev_convo_insert, max_lines=8, max_len=500),
+      compact_generated_text(curr_location, 120), compact_generated_text(curr_context, 220), init_persona.scratch.name, target_persona.scratch.name,
       convo_str, init_persona.scratch.name, target_persona.scratch.name,
       init_persona.scratch.name, init_persona.scratch.name,
       init_persona.scratch.name
@@ -2902,59 +2942,52 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
 
   def __chat_func_clean_up(gpt_response, prompt=""): 
     gpt_response = extract_first_json_dict(gpt_response)
+    if not gpt_response:
+      raise ValueError("Missing JSON response")
 
     cleaned_dict = dict()
     cleaned = []
     for key, val in gpt_response.items(): 
       cleaned += [val]
-    cleaned_dict["utterance"] = cleaned[0]
+    cleaned_dict["utterance"] = clean_generated_text(
+      cleaned[0] if cleaned else "",
+      fallback="Good evening. I should return to my work soon.",
+      allow_random=False,
+      allow_ellipsis=False,
+      max_len=220,
+    )
     cleaned_dict["end"] = True
-    if "f" in str(cleaned[1]) or "F" in str(cleaned[1]): 
+    if len(cleaned) > 1 and "f" in str(cleaned[1]).lower(): 
       cleaned_dict["end"] = False
 
     return cleaned_dict
 
   def __chat_func_validate(gpt_response, prompt=""): 
-    print ("ugh...")
     try: 
-      # print ("debug 1")
-      # print (gpt_response)
-      # print ("debug 2")
-
-      print (extract_first_json_dict(gpt_response))
-      # print ("debug 3")
-
+      cleaned = __chat_func_clean_up(gpt_response, prompt)
+      if has_invalid_generated_text(cleaned["utterance"]):
+        return False
       return True
     except:
       return False 
 
   def get_fail_safe():
     cleaned_dict = dict()
-    cleaned_dict["utterance"] = "..."
-    cleaned_dict["end"] = False
+    cleaned_dict["utterance"] = "Good evening. I should return to my work soon."
+    cleaned_dict["end"] = True
     return cleaned_dict
 
-  print ("11")
   prompt_template = "persona/prompt_template/v3_ChatGPT/iterative_convo_v1.txt" 
   prompt_input = create_prompt_input(maze, init_persona, target_persona, retrieved, curr_context, curr_chat) 
-  print ("22")
   prompt = generate_prompt(prompt_input, prompt_template)
-  # print (prompt)
   fail_safe = get_fail_safe() 
   output = ChatGPT_safe_generate_response_OLD(prompt, 3, fail_safe,
                         __chat_func_validate, __chat_func_clean_up, verbose)
-  # print (output)
   
   gpt_param = {"engine": "MiniMax-Text-01", "max_tokens": 50, 
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
-
-
 
 
 

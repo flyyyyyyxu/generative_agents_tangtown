@@ -1,0 +1,259 @@
+{
+  "simulation_code": "tangtown_validation_fix_20260425_2038",
+  "base_simulation": "base_the_ville_isabella_maria_klaus",
+  "time_period": "February 15, 742 AD — Lantern Festival night",
+  "location": "Chang'an West Market district (长安西市), Tang Dynasty imperial capital",
+  "model": "MiniMax-Text-01",
+  "base_url": "https://api.minimaxi.com/v1",
+  "max_steps_cap": 5000,
+  "steps_run": 10,
+  "start_time": "0742-02-15 18:00:00",
+  "end_time": "0742-02-15 18:01:40",
+  "location_remap": {
+    "Hobbs Cafe": "明珠茶馆 (Tea House)",
+    "The Rose and Crown Pub": "胡姬酒肆 (Sogdian Tavern)",
+    "Dorm for Oak Hill College": "学子客舍 (Scholar's Inn)",
+    "The Ville": "长安西市 (Chang'an West Market district)"
+  },
+  "agents": [
+    {
+      "name": "Li Mingzhu",
+      "name_local": "李明珠",
+      "state": {
+        "tile": [
+          79,
+          16
+        ],
+        "current_action": "going about their routine",
+        "action_address": "the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot",
+        "chatting_with": null
+      }
+    },
+    {
+      "name": "Chen Zian",
+      "name_local": "陈子安",
+      "state": {
+        "tile": [
+          126,
+          50
+        ],
+        "current_action": "conversing about evening plans in Chang'an",
+        "action_address": "<persona> An Lushan",
+        "chatting_with": "An Lushan"
+      }
+    },
+    {
+      "name": "An Lushan",
+      "name_local": "安禄山",
+      "state": {
+        "tile": [
+          130,
+          50
+        ],
+        "current_action": "conversing about evening plans in Chang'an",
+        "action_address": "<persona> Chen Zian",
+        "chatting_with": "Chen Zian"
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "step": 0,
+      "time": "0742-02-15 18:00:00",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 72,
+          "y": 14
+        },
+        "Chen Zian": {
+          "x": 123,
+          "y": 57
+        },
+        "An Lushan": {
+          "x": 126,
+          "y": 46
+        }
+      }
+    },
+    {
+      "step": 1,
+      "time": "0742-02-15 18:00:10",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 73,
+          "y": 14
+        },
+        "Chen Zian": {
+          "x": 123,
+          "y": 56
+        },
+        "An Lushan": {
+          "x": 127,
+          "y": 46
+        }
+      }
+    },
+    {
+      "step": 2,
+      "time": "0742-02-15 18:00:20",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 74,
+          "y": 14
+        },
+        "Chen Zian": {
+          "x": 123,
+          "y": 55
+        },
+        "An Lushan": {
+          "x": 128,
+          "y": 46
+        }
+      }
+    },
+    {
+      "step": 3,
+      "time": "0742-02-15 18:00:30",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 75,
+          "y": 14
+        },
+        "Chen Zian": {
+          "x": 123,
+          "y": 54
+        },
+        "An Lushan": {
+          "x": 129,
+          "y": 46
+        }
+      }
+    },
+    {
+      "step": 4,
+      "time": "0742-02-15 18:00:40",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 76,
+          "y": 14
+        },
+        "Chen Zian": {
+          "x": 124,
+          "y": 54
+        },
+        "An Lushan": {
+          "x": 130,
+          "y": 46
+        }
+      }
+    },
+    {
+      "step": 5,
+      "time": "0742-02-15 18:00:50",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 77,
+          "y": 14
+        },
+        "Chen Zian": {
+          "x": 124,
+          "y": 53
+        },
+        "An Lushan": {
+          "x": 131,
+          "y": 46
+        }
+      }
+    },
+    {
+      "step": 6,
+      "time": "0742-02-15 18:01:00",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 77,
+          "y": 15
+        },
+        "Chen Zian": {
+          "x": 124,
+          "y": 52
+        },
+        "An Lushan": {
+          "x": 131,
+          "y": 47
+        }
+      }
+    },
+    {
+      "step": 7,
+      "time": "0742-02-15 18:01:10",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 77,
+          "y": 15
+        },
+        "Chen Zian": {
+          "x": 124,
+          "y": 51
+        },
+        "An Lushan": {
+          "x": 131,
+          "y": 48
+        }
+      }
+    },
+    {
+      "step": 8,
+      "time": "0742-02-15 18:01:20",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 78,
+          "y": 15
+        },
+        "Chen Zian": {
+          "x": 124,
+          "y": 50
+        },
+        "An Lushan": {
+          "x": 131,
+          "y": 49
+        }
+      }
+    },
+    {
+      "step": 9,
+      "time": "0742-02-15 18:01:30",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 79,
+          "y": 15
+        },
+        "Chen Zian": {
+          "x": 125,
+          "y": 50
+        },
+        "An Lushan": {
+          "x": 131,
+          "y": 50
+        }
+      }
+    },
+    {
+      "step": 10,
+      "time": "0742-02-15 18:01:40",
+      "positions": {
+        "Li Mingzhu": {
+          "x": 79,
+          "y": 16
+        },
+        "Chen Zian": {
+          "x": 126,
+          "y": 50
+        },
+        "An Lushan": {
+          "x": 130,
+          "y": 50
+        }
+      }
+    }
+  ]
+}

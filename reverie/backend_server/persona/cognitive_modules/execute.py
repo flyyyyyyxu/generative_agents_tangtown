@@ -164,13 +164,22 @@ def execute(persona, maze, personas, plan):
     ret = persona.scratch.planned_path[0]
     persona.scratch.planned_path = persona.scratch.planned_path[1:]
 
-  description = f"{persona.scratch.act_description}"
-  description += f" @ {persona.scratch.act_address}"
+  action_desc = clean_action_description(
+    persona.scratch.act_description,
+    persona_name=persona.name,
+    fallback="going about their routine",
+  )
+  action_addr = clean_generated_text(
+    persona.scratch.act_address,
+    fallback="unspecified location",
+    allow_random=True,
+    allow_ellipsis=False,
+    max_len=240,
+  ).replace("<random>", "unspecified spot")
+  description = f"{action_desc} @ {action_addr}"
 
   execution = ret, persona.scratch.act_pronunciatio, description
   return execution
-
-
 
 
 
