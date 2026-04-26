@@ -1,0 +1,211 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:00:40",
+  "curr_tile": [
+    130,
+    46
+  ],
+  "daily_plan_req": "Sell a new shipment of foreign glass cups and aromatic spices at West Market, and secure reliable local partners before the caravan departs Chang'an.",
+  "name": "An Lushan",
+  "first_name": "An",
+  "last_name": "Lushan",
+  "age": 38,
+  "innate": "shrewd, sociable, adaptive; respects Tang law while always alert to profitable opportunities",
+  "learned": "An Lushan is a Sogdian merchant living in Chang'an, trading in spices, glassware, horses, and textiles sourced from the Silk Road. He is multilingual and often bridges foreign traders with Chinese buyers.",
+  "currently": "An Lushan is trying to sell a new shipment of foreign glass cups and aromatic spices at West Market while securing dependable local partners before his caravan departs. In this simulation, his lodging and social haunts are conceptually mapped onto the foreign quarter inn and tavern.",
+  "lifestyle": "An Lushan rises early for market business, spends the day negotiating and inspecting goods, and keeps evenings free for alliances, feasts, and deals.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 140,
+  "importance_ele_n": 6,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "wake up and complete the morning routine at 5:00 am",
+    "have a simple breakfast of flatbread and tea at the inn's common room while reviewing his ledger at 6:00 am",
+    "head to West Market to secure a prime display spot for his glass cups and aromatic spices at 7:00 am",
+    "negotiate with potential Chinese buyers and demonstrate the quality of his glassware throughout the morning at 9:00 am",
+    "share a midday meal with fellow Sogdian traders at a nearby eatery to gather market intelligence at 12:00 pm",
+    "return to the West Market to continue selling and scouting for reliable local partners\u2014particularly a merchant or distributor\u2014at 1:30 pm",
+    "visit the foreign quarter tavern in the late afternoon to meet with contacts and discuss partnership arrangements over wine at 4:00 pm",
+    "return to his inn to freshen up and prepare for an evening feast hosted by a potential business partner at 6:00 pm",
+    "attend the feast at a wealthy merchant's residence, networking and solidifying alliances for future caravan ventures from 7:00 to 10:00 pm",
+    "return to the inn and review the day's transactions and promising contacts before retiring at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Negotiate with potential Chinese buyers and demonstrate the quality of his glassware throughout the morning",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "An is continuing negotiations with potential Chinese buyers at West Market, demonstrating the quality of his glassware a",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Visit the foreign quarter tavern to meet with contacts and discuss partnership arrangements over wine",
+      60
+    ],
+    [
+      "asleep",
+      420
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Negotiate with potential Chinese buyers and demonstrate the quality of his glassware throughout the morning",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "An is continuing negotiations with potential Chinese buyers at West Market, demonstrating the quality of his glassware a",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Visit the foreign quarter tavern to meet with contacts and discuss partnership arrangements over wine",
+      60
+    ],
+    [
+      "asleep",
+      420
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 420,
+  "act_description": "asleep",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "An Lushan",
+    "An Lushan",
+    "is"
+  ],
+  "act_obj_description": "not being used",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "refrigerator",
+    "refrigerator",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      131,
+      47
+    ],
+    [
+      131,
+      48
+    ],
+    [
+      131,
+      49
+    ],
+    [
+      131,
+      50
+    ],
+    [
+      130,
+      50
+    ],
+    [
+      129,
+      50
+    ],
+    [
+      128,
+      50
+    ],
+    [
+      127,
+      50
+    ],
+    [
+      126,
+      50
+    ],
+    [
+      125,
+      50
+    ],
+    [
+      124,
+      50
+    ],
+    [
+      123,
+      50
+    ],
+    [
+      123,
+      49
+    ],
+    [
+      123,
+      48
+    ],
+    [
+      123,
+      47
+    ],
+    [
+      123,
+      46
+    ],
+    [
+      123,
+      45
+    ]
+  ]
+}

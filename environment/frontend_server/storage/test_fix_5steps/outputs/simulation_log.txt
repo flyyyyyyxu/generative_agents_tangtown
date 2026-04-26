@@ -1,0 +1,20 @@
+[0742-02-15 18:00:00] Step 0
+  - Li Mingzhu -> [Sunday February 15 -- 06:00 PM] Activity @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [73, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 56]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [126, 46]
+[0742-02-15 18:00:10] Step 1
+  - Li Mingzhu -> [Sunday February 15 -- 06:00 PM] Activity @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [74, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 55]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [127, 46]
+[0742-02-15 18:00:20] Step 2
+  - Li Mingzhu -> [Sunday February 15 -- 06:00 PM] Activity @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [75, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [123, 54]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [128, 46]
+[0742-02-15 18:00:30] Step 3
+  - Li Mingzhu -> [Sunday February 15 -- 06:00 PM] Activity @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [76, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 54]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [129, 46]
+[0742-02-15 18:00:40] Step 4
+  - Li Mingzhu -> [Sunday February 15 -- 06:00 PM] Activity @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot at [77, 14]
+  - Chen Zian -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [124, 53]
+  - An Lushan -> asleep @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot at [130, 46]

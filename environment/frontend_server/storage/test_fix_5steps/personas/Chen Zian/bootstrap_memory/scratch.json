@@ -1,0 +1,215 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:00:40",
+  "curr_tile": [
+    124,
+    54
+  ],
+  "daily_plan_req": "Pass the imperial examination by reviewing classical texts, practicing poetry, and seeking advice from educated acquaintances on court politics and essay style.",
+  "name": "Chen Zian",
+  "first_name": "Chen",
+  "last_name": "Zian",
+  "age": 24,
+  "innate": "ambitious, thoughtful, disciplined; prone to self-doubt about his literary elegance",
+  "learned": "Chen Zian is a scholar from a provincial family who has come to Chang'an to sit the imperial examination. He is steeped in Confucian classics and regulated verse, and he studies diligently for advancement.",
+  "currently": "Chen Zian is reviewing classical texts, practicing poetry, and seeking advice on court politics and essay style before the imperial examination. In this simulation, the dormitory and cafe spaces are interpreted as a scholar's inn and tea-house circuit near West Market.",
+  "lifestyle": "Chen Zian studies late, rises after dawn, copies passages carefully, and tries to balance ambition with calm before the examinations.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 139,
+  "importance_ele_n": 7,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "Here is Chen Zian's daily plan for Sunday February 15:",
+    "wake up and complete the morning routine at 6:00 am",
+    "review Confucian classics from 6:30 to 8:30 am",
+    "have breakfast at the inn at 8:30 am",
+    "visit the tea-house near West Market to seek advice on essay style from fellow scholars from 9:00 am to 11:00 am",
+    "have lunch at a nearby eatery at 11:30 am",
+    "practice composing regulated verse poetry from 12:30 pm to 2:30 pm",
+    "rest and take a short walk to clear his mind from 2:30 to 3:00 pm",
+    "discuss court politics and current affairs with a more experienced scholar at the tea-house from 3:00 pm to 5:00 pm",
+    "return to the inn and review his notes on classical commentaries from 5:30 pm to 7:30 pm",
+    "have dinner at 7:30 pm",
+    "copy passages from exemplary examination essays to study the proper style from 8:00 pm to 10:00 pm",
+    "prepare for bed and reflect on his studies at 10:00 pm",
+    "retire for the night at 10:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen wakes up and completes his morning routine\u2014washing his face,",
+      60
+    ],
+    [
+      "asleep",
+      960
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen wakes up and completes his morning routine\u2014washing his face,",
+      60
+    ],
+    [
+      "asleep",
+      960
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:{common room:<random>",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 960,
+  "act_description": "asleep",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Chen Zian",
+    "Chen Zian",
+    "is"
+  ],
+  "act_obj_description": "at the office",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      124,
+      52
+    ],
+    [
+      124,
+      51
+    ],
+    [
+      123,
+      51
+    ],
+    [
+      122,
+      51
+    ],
+    [
+      121,
+      51
+    ],
+    [
+      120,
+      51
+    ],
+    [
+      119,
+      51
+    ],
+    [
+      118,
+      51
+    ],
+    [
+      117,
+      51
+    ],
+    [
+      117,
+      50
+    ],
+    [
+      117,
+      49
+    ],
+    [
+      117,
+      48
+    ],
+    [
+      117,
+      47
+    ],
+    [
+      116,
+      47
+    ],
+    [
+      116,
+      46
+    ],
+    [
+      116,
+      45
+    ],
+    [
+      116,
+      44
+    ],
+    [
+      116,
+      43
+    ],
+    [
+      116,
+      42
+    ],
+    [
+      116,
+      41
+    ],
+    [
+      116,
+      40
+    ],
+    [
+      116,
+      39
+    ],
+    [
+      116,
+      38
+    ],
+    [
+      116,
+      37
+    ],
+    [
+      117,
+      37
+    ]
+  ]
+}

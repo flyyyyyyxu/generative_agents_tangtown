@@ -1,0 +1,226 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:00:40",
+  "curr_tile": [
+    76,
+    14
+  ],
+  "daily_plan_req": "Prepare and host a successful Lantern Festival evening gathering at the tea house by arranging extra tea, sweet cakes, lamps, seating, and drawing familiar customers in after sunset.",
+  "name": "Li Mingzhu",
+  "first_name": "Li",
+  "last_name": "Mingzhu",
+  "age": 32,
+  "innate": "warm, observant, practical; careful with money but generous to regulars",
+  "learned": "Li Mingzhu is the owner of a tea house near the West Market of Chang'an during the Tang Dynasty in 742 AD. Merchants, students, officials, and travelers pass through her doors each day, and she is fluent in the social currents of the city through her clientele.",
+  "currently": "Li Mingzhu is preparing a Lantern Festival evening gathering at her tea house. In this simulation, Hobbs Cafe is treated conceptually as \u660e\u73e0\u8336\u9986, a tea house near Chang'an West Market.",
+  "lifestyle": "Li Mingzhu rises early to inspect tea, cakes, and lamps, and stays active through the evening rush before resting near midnight.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 139,
+  "importance_ele_n": 7,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "inspect the tea leaves, cakes, and lantern supplies at 6:00 am",
+    "receive fresh tea deliveries from suppliers at 8:00 am",
+    "supervise the arrangement of extra tables and benches in the main hall at 10:00 am",
+    "prepare the special Lantern Festival tea blends and order sweet rice balls from the baker at 11:00 am",
+    "have a simple lunch of leftovers at 12:30 pm",
+    "test all the colored lanterns and replace any faulty ones at 2:00 pm",
+    "greet familiar customers and invite them to the evening gathering at 3:00 pm",
+    "oversee the final cleaning and set out incense burners at 5:00 pm",
+    "light the lanterns and open the doors to welcome guests at 6:00 pm",
+    "serve tea, sweet cakes, and rice dumplings to patrons while chatting with regulars from 6:00 pm to 9:00 pm",
+    "watch the crowd admire the lanterns and listen to poetry recitations at 8:00 pm",
+    "begin closing procedures and thank the guests at 10:00 pm",
+    "count the day's earnings and rest for the night at 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "Li supervises the arrangement of extra tables and benches in the main hall for the evening gathering",
+      60
+    ],
+    [
+      "Li is preparing the special Lantern Festival tea blends and ordering sweet rice balls from the baker at the market",
+      60
+    ],
+    [
+      "[(ID:B7u36y) Sunday February 15 -- 12:00 PM",
+      60
+    ],
+    [
+      "Li is having a simple lunch of leftovers",
+      60
+    ],
+    [
+      "Li is testing all the colored lanterns and replacing any faulty ones",
+      60
+    ],
+    [
+      "Li is greeting familiar customers and inviting them to the evening gathering",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Li is overseeing the final cleaning of the tea house and setting out incense burners for the evening gathering",
+      60
+    ],
+    [
+      "[Sunday February 15 -- 06:00 PM] Activity",
+      60
+    ],
+    [
+      "Li is serving tea, sweet cakes, and rice dumplings to patrons while chatting with regulars and welcoming new guests to t (Li is serving tea, sweet cakes, and rice dumplings to patrons while chatting with regulars and welcoming new guests to t)",
+      60
+    ],
+    [
+      "Li is lighting the colored lanterns and opening the doors to welcome guests to the Lantern Festival gathering",
+      60
+    ],
+    [
+      "Li is continuing to serve tea and sweet rice dumplings to remaining guests while the lanterns glow brightly",
+      60
+    ],
+    [
+      "Li is beginning closing procedures and thanking the guests for attending the Lantern Festival gathering",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "Li supervises the arrangement of extra tables and benches in the main hall for the evening gathering",
+      60
+    ],
+    [
+      "Li is preparing the special Lantern Festival tea blends and ordering sweet rice balls from the baker at the market",
+      60
+    ],
+    [
+      "[(ID:B7u36y) Sunday February 15 -- 12:00 PM",
+      60
+    ],
+    [
+      "Li is having a simple lunch of leftovers",
+      60
+    ],
+    [
+      "Li is testing all the colored lanterns and replacing any faulty ones",
+      60
+    ],
+    [
+      "Li is greeting familiar customers and inviting them to the evening gathering",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Li is overseeing the final cleaning of the tea house and setting out incense burners for the evening gathering",
+      60
+    ],
+    [
+      "[Sunday February 15 -- 06:00 PM] Activity",
+      60
+    ],
+    [
+      "Li is serving tea, sweet cakes, and rice dumplings to patrons while chatting with regulars and welcoming new guests to t",
+      60
+    ],
+    [
+      "Li is lighting the colored lanterns and opening the doors to welcome guests to the Lantern Festival gathering",
+      60
+    ],
+    [
+      "Li is continuing to serve tea and sweet rice dumplings to remaining guests while the lanterns glow brightly",
+      60
+    ],
+    [
+      "Li is beginning closing procedures and thanking the guests for attending the Lantern Festival gathering",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:Answer:<random>",
+  "act_start_time": "February 15, 0742, 18:00:00",
+  "act_duration": 60,
+  "act_description": "[Sunday February 15 -- 06:00 PM] Activity",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Li Mingzhu",
+    "Li Mingzhu",
+    "is"
+  ],
+  "act_obj_description": "being used",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      78,
+      14
+    ],
+    [
+      79,
+      14
+    ],
+    [
+      79,
+      15
+    ],
+    [
+      79,
+      16
+    ]
+  ]
+}

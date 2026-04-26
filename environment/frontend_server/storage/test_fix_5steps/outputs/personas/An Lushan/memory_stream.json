@@ -1,0 +1,430 @@
+{
+  "events": [
+    {
+      "node_id": "node_21",
+      "type": "event",
+      "created": "0742-02-15 18:00:20",
+      "expiration": null,
+      "subject": "unknown",
+      "predicate": "is",
+      "object": "idle",
+      "description": "unknown is idle",
+      "poignancy": 1,
+      "keywords": [
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_20",
+      "type": "event",
+      "created": "0742-02-15 18:00:10",
+      "expiration": null,
+      "subject": "unknown",
+      "predicate": "is",
+      "object": "is",
+      "description": "unknown is is",
+      "poignancy": 5,
+      "keywords": [
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_19",
+      "type": "event",
+      "created": "0742-02-15 18:00:10",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "An Lushan",
+      "object": "is",
+      "description": "An Lushan is asleep",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_17",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "predicate": "is",
+      "object": "idle",
+      "description": "closet is idle",
+      "poignancy": 1,
+      "keywords": [
+        "closet",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_16",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "predicate": "is",
+      "object": "idle",
+      "description": "desk is idle",
+      "poignancy": 1,
+      "keywords": [
+        "desk",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_15",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:game console",
+      "predicate": "is",
+      "object": "idle",
+      "description": "game console is idle",
+      "poignancy": 1,
+      "keywords": [
+        "game console",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_14",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "is",
+      "object": "idle",
+      "description": "An Lushan is idle",
+      "poignancy": 1,
+      "keywords": [
+        "An Lushan",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_13",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "predicate": "is",
+      "object": "idle",
+      "description": "bed is idle",
+      "poignancy": 1,
+      "keywords": [
+        "bed",
+        "idle"
+      ],
+      "filling": []
+    }
+  ],
+  "thoughts": [
+    {
+      "node_id": "node_18",
+      "type": "thought",
+      "created": "0742-02-15 18:00:00",
+      "expiration": "0742-03-17 18:00:00",
+      "subject": "An Lushan",
+      "predicate": "plan",
+      "object": "Sunday February 15",
+      "description": "This is An Lushan's plan for Sunday February 15: wake up and complete the morning routine at 6:00 am, breakfast and prepare goods for transport at 7:00 am, depart for West Market with samples of glass cups and spices at 8:00 am, set up stal",
+      "poignancy": 5,
+      "keywords": [
+        "plan"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_12",
+      "type": "thought",
+      "created": "0742-02-15 07:25:00",
+      "expiration": "0743-02-15 07:25:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "believes",
+      "description": "He believes a good festival night can secure more future business than a week of ordinary hawking.",
+      "poignancy": 10,
+      "keywords": [
+        "believes",
+        "business",
+        "can",
+        "festival",
+        "future",
+        "good",
+        "hawking",
+        "night",
+        "ordinary",
+        "secure",
+        "week"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_11",
+      "type": "thought",
+      "created": "0742-02-15 07:20:00",
+      "expiration": "0743-02-15 07:20:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "company",
+      "description": "He enjoys lively company, especially when conversation turns into trade.",
+      "poignancy": 8,
+      "keywords": [
+        "company",
+        "conversation",
+        "enjoys",
+        "especially",
+        "lively",
+        "trade",
+        "turns",
+        "when"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_10",
+      "type": "thought",
+      "created": "0742-02-15 07:15:00",
+      "expiration": "0743-02-15 07:15:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "because",
+      "description": "He respects Tang law because public disorder scares customers and invites scrutiny.",
+      "poignancy": 10,
+      "keywords": [
+        "because",
+        "customers",
+        "disorder",
+        "invites",
+        "law",
+        "public",
+        "respects",
+        "scares",
+        "scrutiny",
+        "tang"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_9",
+      "type": "thought",
+      "created": "0742-02-15 07:10:00",
+      "expiration": "0743-02-15 07:10:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "careless",
+      "description": "He once lost money when a careless handler chipped a crate of fragile cups.",
+      "poignancy": 10,
+      "keywords": [
+        "careless",
+        "chipped",
+        "crate",
+        "cups",
+        "fragile",
+        "handler",
+        "lost",
+        "money",
+        "once",
+        "when"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_8",
+      "type": "thought",
+      "created": "0742-02-15 07:05:00",
+      "expiration": "0743-02-15 07:05:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "can",
+      "description": "He wants reliable local partners so the next caravan can sell faster and safer.",
+      "poignancy": 10,
+      "keywords": [
+        "can",
+        "caravan",
+        "faster",
+        "local",
+        "next",
+        "partners",
+        "reliable",
+        "safer",
+        "sell",
+        "wants"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_7",
+      "type": "thought",
+      "created": "0742-02-15 07:00:00",
+      "expiration": "0743-02-15 07:00:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "fashionable",
+      "description": "He has learned that scholars often know which households seek fashionable imports.",
+      "poignancy": 9,
+      "keywords": [
+        "fashionable",
+        "households",
+        "imports",
+        "know",
+        "learned",
+        "often",
+        "scholars",
+        "seek",
+        "which"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_6",
+      "type": "thought",
+      "created": "0742-02-15 06:55:00",
+      "expiration": "0743-02-15 06:55:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "buyers",
+      "description": "He sees Li Mingzhu's tea house as a useful social hub for meeting clerks and buyers.",
+      "poignancy": 10,
+      "keywords": [
+        "buyers",
+        "clerks",
+        "house",
+        "hub",
+        "meeting",
+        "mingzhu",
+        "sees",
+        "social",
+        "tea",
+        "useful"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_5",
+      "type": "thought",
+      "created": "0742-02-15 06:50:00",
+      "expiration": "0743-02-15 06:50:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "aromatic",
+      "description": "He suspects festival crowds are ideal for introducing aromatic spices to curious customers.",
+      "poignancy": 9,
+      "keywords": [
+        "aromatic",
+        "crowds",
+        "curious",
+        "customers",
+        "festival",
+        "ideal",
+        "introducing",
+        "spices",
+        "suspects"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_4",
+      "type": "thought",
+      "created": "0742-02-15 06:45:00",
+      "expiration": "0743-02-15 06:45:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "become",
+      "description": "He can switch between languages quickly when negotiations become delicate.",
+      "poignancy": 9,
+      "keywords": [
+        "become",
+        "between",
+        "can",
+        "delicate",
+        "languages",
+        "negotiations",
+        "quickly",
+        "switch",
+        "when"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_3",
+      "type": "thought",
+      "created": "0742-02-15 06:40:00",
+      "expiration": "0743-02-15 06:40:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "because",
+      "description": "He keeps cordial relations with local officials because smooth paperwork protects profit.",
+      "poignancy": 10,
+      "keywords": [
+        "because",
+        "cordial",
+        "keeps",
+        "local",
+        "officials",
+        "paperwork",
+        "profit",
+        "protects",
+        "relations",
+        "smooth"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_2",
+      "type": "thought",
+      "created": "0742-02-15 06:35:00",
+      "expiration": "0743-02-15 06:35:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "attract",
+      "description": "He knows foreign glass cups attract wealthy buyers if displayed where lamplight catches them.",
+      "poignancy": 10,
+      "keywords": [
+        "attract",
+        "buyers",
+        "catches",
+        "cups",
+        "displayed",
+        "foreign",
+        "glass",
+        "knows",
+        "lamplight",
+        "wealthy",
+        "where"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_1",
+      "type": "thought",
+      "created": "0742-02-15 06:30:00",
+      "expiration": "0743-02-15 06:30:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "caravan",
+      "description": "He has crossed many caravan routes and trusts a ledger more than a promise.",
+      "poignancy": 7,
+      "keywords": [
+        "caravan",
+        "crossed",
+        "ledger",
+        "many",
+        "promise",
+        "routes",
+        "trusts"
+      ],
+      "filling": null
+    }
+  ],
+  "chats": []
+}

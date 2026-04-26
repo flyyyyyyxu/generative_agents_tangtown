@@ -67,12 +67,20 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    cr = int(gpt_response.strip().lower().split("am")[0])
-    return cr
-  
-  def __func_validate(gpt_response, prompt=""): 
-    try: __func_clean_up(gpt_response, prompt="")
-    except: return False
+    import re
+    m = re.search(r'\b([0-9]{1,2})\b', gpt_response.strip().lower())
+    if not m:
+      raise ValueError(f"no hour found in: {gpt_response!r}")
+    hour = int(m.group(1))
+    if not (0 <= hour <= 23):
+      raise ValueError(f"hour out of range: {hour}")
+    return hour
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      __func_clean_up(gpt_response, prompt="")
+    except:
+      return False
     return True
 
   def get_fail_safe(): 
@@ -124,20 +132,25 @@ def run_gpt_prompt_daily_plan(persona,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
+    import re
+    # Strip chain-of-thought blocks some models emit
+    text = re.sub(r'<think>.*?</think>', '', gpt_response, flags=re.DOTALL).strip()
+    # Split on any numbered-list marker: "3)", "3.", "3) ", etc.
+    # The prompt already supplies item 1, so the completion starts at item 2's text.
+    parts = re.split(r'[\s,]*\d+[.)]\s*', text)
     cr = []
-    _cr = gpt_response.split(")")
-    for i in _cr: 
-      if i[-1].isdigit(): 
-        i = i[:-1].strip()
-        if i[-1] == "." or i[-1] == ",": 
-          cr += [i[:-1].strip()]
+    for part in parts:
+      part = part.strip().rstrip('.,').strip()
+      if len(part) > 3:
+        cr.append(part)
     return cr
 
   def __func_validate(gpt_response, prompt=""):
-    try: __func_clean_up(gpt_response, prompt="")
-    except: 
+    try:
+      result = __func_clean_up(gpt_response, prompt="")
+      return bool(result)
+    except:
       return False
-    return True
 
   def get_fail_safe(): 
     fs = ['wake up and complete the morning routine at 6:00 am', 
@@ -231,9 +244,15 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
 
   def __func_clean_up(gpt_response, prompt=""):
     cr = gpt_response.strip().split("\n")[0].strip()
-    # Model (thinking) may output the full formatted line; extract just the activity
+    # Model may output the full formatted line; extract just the activity
     if "Activity:" in cr:
       cr = cr.split("Activity:")[-1].strip()
+    # Reject prompt-format echoes like "[(ID:..." or "[Sunday Feb 15 --"
+    if cr.startswith("[(") or cr.startswith("[Sunday") or cr.startswith("[Monday") \
+        or cr.startswith("[Tuesday") or cr.startswith("[Wednesday") \
+        or cr.startswith("[Thursday") or cr.startswith("[Friday") \
+        or cr.startswith("[Saturday"):
+      return ""
     if cr and cr[-1] == ".":
       cr = cr[:-1]
     return cr[:120]

@@ -100,13 +100,18 @@ def generate_hourly_schedule(persona, wake_up_hour):
     n_m1_activity_set = set(n_m1_activity)
     if len(n_m1_activity_set) < 5: 
       n_m1_activity = []
-      for count, curr_hour_str in enumerate(hour_str): 
-        if wake_up_hour > 0: 
+      for count, curr_hour_str in enumerate(hour_str):
+        if wake_up_hour > 0:
           n_m1_activity += ["sleeping"]
           wake_up_hour -= 1
-        else: 
+        else:
+          # Only show non-sleep prior activities as context so "asleep"
+          # entries don't cascade into subsequent LLM calls.
+          _sleep_labels = {"asleep", "sleeping"}
+          prior_for_llm = [a for a in n_m1_activity
+                           if a.lower() not in _sleep_labels]
           n_m1_activity += [run_gpt_prompt_generate_hourly_schedule(
-                          persona, curr_hour_str, n_m1_activity, hour_str)[0]]
+                          persona, curr_hour_str, prior_for_llm, hour_str)[0]]
   
   # Step 1. Compressing the hourly schedule to the following format: 
   # The integer indicates the number of hours. They should add up to 24. 
