@@ -1,0 +1,215 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:33:10",
+  "curr_tile": [
+    126,
+    41
+  ],
+  "daily_plan_req": "Pass the imperial examination by reviewing classical texts, practicing poetry, and seeking advice from educated acquaintances on court politics and essay style.",
+  "name": "Chen Zian",
+  "first_name": "Chen",
+  "last_name": "Zian",
+  "age": 24,
+  "innate": "ambitious, thoughtful, disciplined; prone to self-doubt about his literary elegance",
+  "learned": "Chen Zian is a scholar from a provincial family who has come to Chang'an to sit the imperial examination. He is steeped in Confucian classics and regulated verse, and he studies diligently for advancement.",
+  "currently": "Chen Zian is reviewing classical texts, practicing poetry, and seeking advice on court politics and essay style before the imperial examination. In this simulation, the dormitory and cafe spaces are interpreted as a scholar's inn and tea-house circuit near West Market.",
+  "lifestyle": "Chen Zian studies late, rises after dawn, copies passages carefully, and tries to balance ambition with calm before the examinations.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 109,
+  "importance_ele_n": 17,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "wake up and complete the morning routine at 6:00 am",
+    "recite Confucian classics from memory at 6:30 am",
+    "have breakfast at 7:30 am at the inn",
+    "review \"Great Learning\" and \"Doctrine of the Mean\" from 8:00 am to 10:00 am",
+    "visit tea-house near West Market to seek advice from educated acquaintances on essay style from 10:30 am to 12:00 pm",
+    "have lunch at 12:30 pm",
+    "practice composing regulated verse from 2:00 pm to 4:00 pm",
+    "copy passages from Model Essays for Imperial Examination from 4:30 pm to 6:00 pm",
+    "have dinner at 6:30 pm",
+    "review notes on court politics and current affairs from 7:30 pm to 9:00 pm",
+    "read poetry collections and refine his own verses from 9:00 pm to 10:30 pm",
+    "prepare for bed and reflect on the day's studies at 10:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      120
+    ],
+    [
+      "Chen is reviewing the \"Great Learning\" (\u300a\u5927\u5b66\u300b) and \"Doctrine of the Mean\" (\u300a\u4e2d\u5eb8\u300b), carefully studying the commentaries and",
+      60
+    ],
+    [
+      "Chen is reviewing \"Great Learning\" (\u300a\u5927\u5b66\u300b) and \"Doctrine of the Mean\" (\u300a\u4e2d\u5eb8\u300b), carefully studying the commentaries and mem",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Chen is practicing composing regulated verse (\u5f8b\u8bd7), working on parallelism, tone patterns, and imagery for the imperial e",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen takes a brief rest and prepares his writing materials, brush, and ink for the copying practice ahead, reflecting br",
+      60
+    ],
+    [
+      "asleep (on the way to aslee)",
+      120
+    ],
+    [
+      "asleep (conversing about a provincial scholar named Chen Zian meeting a Sogdian merchant named An Lushan in a dream to discuss current affairs relevant to the imperial examinations, including salt trade reforms, frontier conditions, and what examiners value regarding moral clarity versus practical understanding of the empire)",
+      16
+    ],
+    [
+      "Chen is finishing dinner at the inn and preparing his notes on court politics and current affairs for the upcoming study (Chen is finishing dinner at the inn and preparing his notes on court politics and current affairs for the upcoming study) (Chen is finishing dinner at the inn and preparing his notes on court politics and current affairs for the upcoming study (Chen is finishing dinner at the inn and preparing his notes on court politics and current affairs for the upcoming study))",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen is reading poetry collections from renowned Tang poets, studying their imagery, diction, and structural techniques,",
+      60
+    ],
+    [
+      "asleep",
+      120
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -16
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      120
+    ],
+    [
+      "Chen is reviewing the \"Great Learning\" (\u300a\u5927\u5b66\u300b) and \"Doctrine of the Mean\" (\u300a\u4e2d\u5eb8\u300b), carefully studying the commentaries and",
+      60
+    ],
+    [
+      "Chen is reviewing \"Great Learning\" (\u300a\u5927\u5b66\u300b) and \"Doctrine of the Mean\" (\u300a\u4e2d\u5eb8\u300b), carefully studying the commentaries and mem",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Chen is practicing composing regulated verse (\u5f8b\u8bd7), working on parallelism, tone patterns, and imagery for the imperial e",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen takes a brief rest and prepares his writing materials, brush, and ink for the copying practice ahead, reflecting br",
+      60
+    ],
+    [
+      "asleep",
+      120
+    ],
+    [
+      "Chen is finishing dinner at the inn and preparing his notes on court politics and current affairs for the upcoming study",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen is reading poetry collections from renowned Tang poets, studying their imagery, diction, and structural techniques,",
+      60
+    ],
+    [
+      "asleep",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:{common room:<random>",
+  "act_start_time": "February 15, 0742, 18:18:00",
+  "act_duration": 42,
+  "act_description": "asleep (on the way to aslee)",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Chen Zian",
+    "Chen Zian",
+    "is"
+  ],
+  "act_obj_description": "falling asleep",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "An Lushan": 708
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      124,
+      41
+    ],
+    [
+      123,
+      41
+    ],
+    [
+      122,
+      41
+    ],
+    [
+      121,
+      41
+    ],
+    [
+      120,
+      41
+    ]
+  ]
+}

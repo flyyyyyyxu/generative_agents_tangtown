@@ -1,0 +1,138 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 18:33:10",
+  "curr_tile": [
+    123,
+    45
+  ],
+  "daily_plan_req": "Sell a new shipment of foreign glass cups and aromatic spices at West Market, and secure reliable local partners before the caravan departs Chang'an.",
+  "name": "An Lushan",
+  "first_name": "An",
+  "last_name": "Lushan",
+  "age": 38,
+  "innate": "shrewd, sociable, adaptive; respects Tang law while always alert to profitable opportunities",
+  "learned": "An Lushan is a Sogdian merchant living in Chang'an, trading in spices, glassware, horses, and textiles sourced from the Silk Road. He is multilingual and often bridges foreign traders with Chinese buyers.",
+  "currently": "An Lushan is trying to sell a new shipment of foreign glass cups and aromatic spices at West Market while securing dependable local partners before his caravan departs. In this simulation, his lodging and social haunts are conceptually mapped onto the foreign quarter inn and tavern.",
+  "lifestyle": "An Lushan rises early for market business, spends the day negotiating and inspecting goods, and keeps evenings free for alliances, feasts, and deals.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 109,
+  "importance_ele_n": 17,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "Here is An Lushan's detailed plan for Sunday, February 15:",
+    "wake up and complete the morning routine at 5:00 am",
+    "take a light breakfast at the inn with fellow Sogdian traders at 6:00 am",
+    "proceed to West Market to set up his stall and display the glass cups and spices at 7:00 am",
+    "begin negotiating with potential Chinese buyers at the market from 9:00 am to 12:00 pm",
+    "share a midday meal with a recurring Chinese merchant client at a nearby eatery at 12:00 pm",
+    "resume market negotiations and showcase goods to new customers from 1:00 pm to 4:00 pm",
+    "visit a tea house near the West Market to meet with a prospective local partner at 4:30 pm",
+    "return to the inn to freshen up and review accounts at 6:00 pm",
+    "host a small feast at a tavern in the foreign quarter to cultivate alliances at 7:00 pm",
+    "conclude the evening with drinks and conversation to secure partnership agreements at 9:00 pm",
+    "return to the inn and prepare for rest at 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "An wakes up and completes his morning routine at the inn, washing up, dressing in his merchant's",
+      60
+    ],
+    [
+      "asleep",
+      540
+    ],
+    [
+      "An is continuing negotiations at the West",
+      60
+    ],
+    [
+      "Conclude market negotiations, pack up remaining glass cups and spices, and prepare to leave for tea house meeting with p",
+      60
+    ],
+    [
+      "asleep (on the way to aslee)",
+      420
+    ],
+    [
+      "asleep (conversing about a provincial scholar named Chen Zian meeting a Sogdian merchant named An Lushan in a dream to discuss current affairs relevant to the imperial examinations, including salt trade reforms, frontier conditions, and what examiners value regarding moral clarity versus practical understanding of the empire)",
+      16
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -16
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "An wakes up and completes his morning routine at the inn, washing up, dressing in his merchant's",
+      60
+    ],
+    [
+      "asleep",
+      540
+    ],
+    [
+      "An is continuing negotiations at the West",
+      60
+    ],
+    [
+      "Conclude market negotiations, pack up remaining glass cups and spices, and prepare to leave for tea house meeting with p",
+      60
+    ],
+    [
+      "asleep",
+      420
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+  "act_start_time": "February 15, 0742, 18:18:00",
+  "act_duration": 342,
+  "act_description": "asleep (on the way to aslee)",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "An Lushan",
+    "An Lushan",
+    "is"
+  ],
+  "act_obj_description": "not being used",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "refrigerator",
+    "refrigerator",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Chen Zian": 708
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}
