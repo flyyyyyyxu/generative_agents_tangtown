@@ -1,0 +1,718 @@
+{
+  "events": [
+    {
+      "node_id": "node_35",
+      "type": "event",
+      "created": "0742-02-15 19:01:50",
+      "expiration": null,
+      "subject": "Chen Zian",
+      "predicate": "Chen Zian",
+      "object": "is",
+      "description": "Chen Zian is conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary styl",
+      "poignancy": 5,
+      "keywords": [
+        "Chen Zian",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_34",
+      "type": "event",
+      "created": "0742-02-15 18:23:30",
+      "expiration": null,
+      "subject": "unknown",
+      "predicate": "is",
+      "object": "idle",
+      "description": "unknown is idle",
+      "poignancy": 1,
+      "keywords": [
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_33",
+      "type": "event",
+      "created": "0742-02-15 18:22:50",
+      "expiration": null,
+      "subject": "unknown",
+      "predicate": "is",
+      "object": "is",
+      "description": "unknown is is",
+      "poignancy": 5,
+      "keywords": [
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_32",
+      "type": "event",
+      "created": "0742-02-15 18:22:10",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "An Lushan",
+      "object": "is",
+      "description": "An Lushan is on the way to asleep",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_31",
+      "type": "event",
+      "created": "0742-02-15 18:22:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:garden:dorm garden",
+      "predicate": "is",
+      "object": "idle",
+      "description": "dorm garden is idle",
+      "poignancy": 1,
+      "keywords": [
+        "dorm garden",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_30",
+      "type": "event",
+      "created": "0742-02-15 18:19:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "predicate": "is",
+      "object": "idle",
+      "description": "common room sofa is idle",
+      "poignancy": 1,
+      "keywords": [
+        "common room sofa",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_29",
+      "type": "event",
+      "created": "0742-02-15 18:18:50",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:common room:pool table",
+      "predicate": "is",
+      "object": "idle",
+      "description": "pool table is idle",
+      "poignancy": 1,
+      "keywords": [
+        "idle",
+        "pool table"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_28",
+      "type": "event",
+      "created": "0742-02-15 18:18:50",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:common room:common room table",
+      "predicate": "is",
+      "object": "idle",
+      "description": "common room table is idle",
+      "poignancy": 1,
+      "keywords": [
+        "common room table",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_25",
+      "type": "event",
+      "created": "0742-02-15 18:01:50",
+      "expiration": null,
+      "subject": "Chen Zian",
+      "predicate": "chat with",
+      "object": "An Lushan",
+      "description": "Chen Zian is conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "Chen Zian"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_24",
+      "type": "event",
+      "created": "0742-02-15 18:01:40",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "chat with",
+      "object": "Chen Zian",
+      "description": "An Lushan is conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "Chen Zian"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_22",
+      "type": "event",
+      "created": "0742-02-15 18:01:30",
+      "expiration": null,
+      "subject": "Chen Zian",
+      "predicate": "Chen Zian",
+      "object": "is",
+      "description": "Chen Zian is asleep",
+      "poignancy": 5,
+      "keywords": [
+        "Chen Zian",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_21",
+      "type": "event",
+      "created": "0742-02-15 18:00:20",
+      "expiration": null,
+      "subject": "unknown",
+      "predicate": "is",
+      "object": "idle",
+      "description": "unknown is idle",
+      "poignancy": 1,
+      "keywords": [
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_20",
+      "type": "event",
+      "created": "0742-02-15 18:00:10",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "An Lushan",
+      "object": "is",
+      "description": "An Lushan is asleep",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_19",
+      "type": "event",
+      "created": "0742-02-15 18:00:10",
+      "expiration": null,
+      "subject": "unknown",
+      "predicate": "is",
+      "object": "is",
+      "description": "unknown is is",
+      "poignancy": 5,
+      "keywords": [
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_17",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "predicate": "is",
+      "object": "idle",
+      "description": "closet is idle",
+      "poignancy": 1,
+      "keywords": [
+        "closet",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_16",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:desk",
+      "predicate": "is",
+      "object": "idle",
+      "description": "desk is idle",
+      "poignancy": 1,
+      "keywords": [
+        "desk",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_15",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:game console",
+      "predicate": "is",
+      "object": "idle",
+      "description": "game console is idle",
+      "poignancy": 1,
+      "keywords": [
+        "game console",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_14",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "predicate": "is",
+      "object": "idle",
+      "description": "bed is idle",
+      "poignancy": 1,
+      "keywords": [
+        "bed",
+        "idle"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_13",
+      "type": "event",
+      "created": "0742-02-15 18:00:00",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "is",
+      "object": "idle",
+      "description": "An Lushan is idle",
+      "poignancy": 1,
+      "keywords": [
+        "An Lushan",
+        "idle"
+      ],
+      "filling": []
+    }
+  ],
+  "thoughts": [
+    {
+      "node_id": "node_27",
+      "type": "thought",
+      "created": "0742-02-15 18:17:50",
+      "expiration": "0742-03-17 18:17:50",
+      "subject": "An Lushan",
+      "predicate": "An Lushan",
+      "object": "is",
+      "description": "An Lushan The conversation revealed that wealthy households in Chang'an with sons preparing for imperial examinations often seek foreign goods such as rare spices, fine glassware, fashionable imports, fine teas, and aromatic incense, which",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_26",
+      "type": "thought",
+      "created": "0742-02-15 18:17:50",
+      "expiration": "0742-03-17 18:17:50",
+      "subject": "An Lushan",
+      "predicate": "An Lushan",
+      "object": "is",
+      "description": "For An Lushan's planning:",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "is"
+      ],
+      "filling": []
+    },
+    {
+      "node_id": "node_18",
+      "type": "thought",
+      "created": "0742-02-15 18:00:00",
+      "expiration": "0742-03-17 18:00:00",
+      "subject": "An Lushan",
+      "predicate": "plan",
+      "object": "Sunday February 15",
+      "description": "This is An Lushan's plan for Sunday February 15: wake up and complete the morning routine at 6:00 am, wake up and complete the morning routine at 6:00 am, breakfast at the inn's common hall while reviewing inventory manifests at 7:00 am, de",
+      "poignancy": 5,
+      "keywords": [
+        "plan"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_12",
+      "type": "thought",
+      "created": "0742-02-15 07:25:00",
+      "expiration": "0743-02-15 07:25:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "believes",
+      "description": "He believes a good festival night can secure more future business than a week of ordinary hawking.",
+      "poignancy": 10,
+      "keywords": [
+        "believes",
+        "business",
+        "can",
+        "festival",
+        "future",
+        "good",
+        "hawking",
+        "night",
+        "ordinary",
+        "secure",
+        "week"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_11",
+      "type": "thought",
+      "created": "0742-02-15 07:20:00",
+      "expiration": "0743-02-15 07:20:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "company",
+      "description": "He enjoys lively company, especially when conversation turns into trade.",
+      "poignancy": 8,
+      "keywords": [
+        "company",
+        "conversation",
+        "enjoys",
+        "especially",
+        "lively",
+        "trade",
+        "turns",
+        "when"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_10",
+      "type": "thought",
+      "created": "0742-02-15 07:15:00",
+      "expiration": "0743-02-15 07:15:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "because",
+      "description": "He respects Tang law because public disorder scares customers and invites scrutiny.",
+      "poignancy": 10,
+      "keywords": [
+        "because",
+        "customers",
+        "disorder",
+        "invites",
+        "law",
+        "public",
+        "respects",
+        "scares",
+        "scrutiny",
+        "tang"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_9",
+      "type": "thought",
+      "created": "0742-02-15 07:10:00",
+      "expiration": "0743-02-15 07:10:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "careless",
+      "description": "He once lost money when a careless handler chipped a crate of fragile cups.",
+      "poignancy": 10,
+      "keywords": [
+        "careless",
+        "chipped",
+        "crate",
+        "cups",
+        "fragile",
+        "handler",
+        "lost",
+        "money",
+        "once",
+        "when"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_8",
+      "type": "thought",
+      "created": "0742-02-15 07:05:00",
+      "expiration": "0743-02-15 07:05:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "can",
+      "description": "He wants reliable local partners so the next caravan can sell faster and safer.",
+      "poignancy": 10,
+      "keywords": [
+        "can",
+        "caravan",
+        "faster",
+        "local",
+        "next",
+        "partners",
+        "reliable",
+        "safer",
+        "sell",
+        "wants"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_7",
+      "type": "thought",
+      "created": "0742-02-15 07:00:00",
+      "expiration": "0743-02-15 07:00:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "fashionable",
+      "description": "He has learned that scholars often know which households seek fashionable imports.",
+      "poignancy": 9,
+      "keywords": [
+        "fashionable",
+        "households",
+        "imports",
+        "know",
+        "learned",
+        "often",
+        "scholars",
+        "seek",
+        "which"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_6",
+      "type": "thought",
+      "created": "0742-02-15 06:55:00",
+      "expiration": "0743-02-15 06:55:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "buyers",
+      "description": "He sees Li Mingzhu's tea house as a useful social hub for meeting clerks and buyers.",
+      "poignancy": 10,
+      "keywords": [
+        "buyers",
+        "clerks",
+        "house",
+        "hub",
+        "meeting",
+        "mingzhu",
+        "sees",
+        "social",
+        "tea",
+        "useful"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_5",
+      "type": "thought",
+      "created": "0742-02-15 06:50:00",
+      "expiration": "0743-02-15 06:50:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "aromatic",
+      "description": "He suspects festival crowds are ideal for introducing aromatic spices to curious customers.",
+      "poignancy": 9,
+      "keywords": [
+        "aromatic",
+        "crowds",
+        "curious",
+        "customers",
+        "festival",
+        "ideal",
+        "introducing",
+        "spices",
+        "suspects"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_4",
+      "type": "thought",
+      "created": "0742-02-15 06:45:00",
+      "expiration": "0743-02-15 06:45:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "become",
+      "description": "He can switch between languages quickly when negotiations become delicate.",
+      "poignancy": 9,
+      "keywords": [
+        "become",
+        "between",
+        "can",
+        "delicate",
+        "languages",
+        "negotiations",
+        "quickly",
+        "switch",
+        "when"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_3",
+      "type": "thought",
+      "created": "0742-02-15 06:40:00",
+      "expiration": "0743-02-15 06:40:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "because",
+      "description": "He keeps cordial relations with local officials because smooth paperwork protects profit.",
+      "poignancy": 10,
+      "keywords": [
+        "because",
+        "cordial",
+        "keeps",
+        "local",
+        "officials",
+        "paperwork",
+        "profit",
+        "protects",
+        "relations",
+        "smooth"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_2",
+      "type": "thought",
+      "created": "0742-02-15 06:35:00",
+      "expiration": "0743-02-15 06:35:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "attract",
+      "description": "He knows foreign glass cups attract wealthy buyers if displayed where lamplight catches them.",
+      "poignancy": 10,
+      "keywords": [
+        "attract",
+        "buyers",
+        "catches",
+        "cups",
+        "displayed",
+        "foreign",
+        "glass",
+        "knows",
+        "lamplight",
+        "wealthy",
+        "where"
+      ],
+      "filling": null
+    },
+    {
+      "node_id": "node_1",
+      "type": "thought",
+      "created": "0742-02-15 06:30:00",
+      "expiration": "0743-02-15 06:30:00",
+      "subject": "self",
+      "predicate": "remembers",
+      "object": "caravan",
+      "description": "He has crossed many caravan routes and trusts a ledger more than a promise.",
+      "poignancy": 7,
+      "keywords": [
+        "caravan",
+        "crossed",
+        "ledger",
+        "many",
+        "promise",
+        "routes",
+        "trusts"
+      ],
+      "filling": null
+    }
+  ],
+  "chats": [
+    {
+      "node_id": "node_23",
+      "type": "chat",
+      "created": "0742-02-15 18:01:40",
+      "expiration": null,
+      "subject": "An Lushan",
+      "predicate": "chat with",
+      "object": "Chen Zian",
+      "description": "conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with An Lushan def",
+      "poignancy": 5,
+      "keywords": [
+        "An Lushan",
+        "Chen Zian"
+      ],
+      "filling": [
+        [
+          "Chen Zian",
+          "Excuse me, may I ask who you are? I don't recall seeing you in this dormitory before. I am Chen Zian, a scholar preparing for the imperial examinations. Pardon my surprise - I was asleep when I noticed you here."
+        ],
+        [
+          "An Lushan",
+          "Greetings, scholar Chen Zian. I am An Lushan, a merchant from the West Market. I apologize for the intrusion - I was resting when I found myself here. A pleasure to meet you. Are you indeed preparing for the imperial exa"
+        ],
+        [
+          "Chen Zian",
+          "Yes, I am indeed preparing for the imperial examinations. It is strange that a merchant from the West Market would find himself resting in a college dormitory. Pardon my curiosity, but you mentioned you were resting when"
+        ],
+        [
+          "An Lushan",
+          "Indeed, a most unusual circumstance. I was traveling through these parts and felt weary from my journey. I sought shelter and must have wandered in here, perhaps mistaking it for an inn. The road from the West Market can"
+        ],
+        [
+          "Chen Zian",
+          "Ah, traveling from the West Market must bring you into contact with many varied people and news. I am curious - as a merchant who deals with foreigners and travelers, do you happen to hear any whispers about what the cur"
+        ],
+        [
+          "An Lushan",
+          "Whispers? Ah, scholar, you were asking about what? Please, do continue. As a merchant who travels the Silk Road, I do hear many rumors and tidings - news from the border regions, tales of foreign lands, and sometimes mat"
+        ],
+        [
+          "Chen Zian",
+          "I was asking whether you have heard any whispers about what the current examiners value - do they prefer moral clarity in essays, or do they favor more ornate literary style? As someone who travels widely, you might have"
+        ],
+        [
+          "An Lushan",
+          "Ah, scholar, that is a matter beyond my expertise - I am a simple merchant, not versed in the ways of the imperial examinations. However, I do know that many wealthy households in Chang'an whose sons study for these same"
+        ],
+        [
+          "Chen Zian",
+          "I see. Well, if you have encountered any wealthy households with sons preparing for the examinations, perhaps they might have insights into the current preferences. Tell me, what manner of people have you met in your tra"
+        ],
+        [
+          "An Lushan",
+          "...these same examinations. In fact, many such families are often seeking foreign goods - rare spices, fine glassware, and other imports to celebrate their sons' successes. If I may be so bold, scholar Chen Zian, perhaps"
+        ],
+        [
+          "Chen Zian",
+          "I understand such matters may seem distant from merchant concerns. However, if you have encountered any wealthy families or officials in your travels, do they speak of what the current examiners in Chang'an favor? I ask"
+        ],
+        [
+          "An Lushan",
+          "Ah, scholar, I was saying that many wealthy households in Chang'an whose sons study for these examinations often seek certain comforts and distractions during their studies - fine teas, aromatic incense, perhaps even dec"
+        ],
+        [
+          "Chen Zian",
+          "Ah, I see. If I may ask further - do these wealthy households you mention have any particular insights into the examination process? Or perhaps you have encountered scholars or officials who have shared such knowledge? A"
+        ],
+        [
+          "An Lushan",
+          "However, I do know that many wealthy households in Chang'an whose sons study for these examinations often seek fashionable imports to display their status. Scholars like yourself might know which families have such taste"
+        ],
+        [
+          "Chen Zian",
+          "I see. Well, since you travel the Silk Road and deal with various peoples, perhaps you have heard other news of interest? Any word from the border regions, or perhaps rumors from the court that might affect us scholars p"
+        ],
+        [
+          "An Lushan",
+          "...examinations. Many such households employ tutors and have connections to officials who may know the examiners' preferences. If it would be of help, scholar, I could make inquiries among my contacts in Chang'an. A merc"
+        ]
+      ]
+    }
+  ]
+}

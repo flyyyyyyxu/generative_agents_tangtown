@@ -1,0 +1,163 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 23:33:10",
+  "curr_tile": [
+    78,
+    16
+  ],
+  "daily_plan_req": "Prepare and host a successful Lantern Festival evening gathering at the tea house by arranging extra tea, sweet cakes, lamps, seating, and drawing familiar customers in after sunset.",
+  "name": "Li Mingzhu",
+  "first_name": "Li",
+  "last_name": "Mingzhu",
+  "age": 32,
+  "innate": "warm, observant, practical; careful with money but generous to regulars",
+  "learned": "Li Mingzhu is the owner of a tea house near the West Market of Chang'an during the Tang Dynasty in 742 AD. Merchants, students, officials, and travelers pass through her doors each day, and she is fluent in the social currents of the city through her clientele.",
+  "currently": "Li Mingzhu is preparing a Lantern Festival evening gathering at her tea house. In this simulation, Hobbs Cafe is treated conceptually as \u660e\u73e0\u8336\u9986, a tea house near Chang'an West Market.",
+  "lifestyle": "Li Mingzhu rises early to inspect tea, cakes, and lamps, and stays active through the evening rush before resting near midnight.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 92,
+  "importance_ele_n": 30,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "inspect the tea leaves, sweet cakes, and lantern supplies at 6:00 am",
+    "supervise staff preparing extra tea and refreshments at 8:00 am",
+    "arrange seating and hang decorative lanterns around the tea house at 10:00 am",
+    "have lunch at 12:00 pm",
+    "final preparations and test lantern lighting at 2:00 pm",
+    "rest briefly and prepare herself for the evening at 4:00 pm",
+    "open the tea house and welcome early customers at 5:00 pm",
+    "host the Lantern Festival gathering, serve tea and cakes to regulars and new visitors from 6:00 pm to 9:00 pm",
+    "clean up and close the tea house at 10:00 pm",
+    "rest near midnight"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "Li wakes up and completes her morning routine, washing her face and brushing her hair in preparation for the busy day ah",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Li rises early to begin her day. She dresses in her practical yet warm attire, arranges her hair simply, and reviews the",
+      60
+    ],
+    [
+      "asleep",
+      600
+    ],
+    [
+      "Li Mingzhu hosts the Lantern Festival gathering, greeting familiar faces and new visitors as the tea house fills with wa",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "Li wakes up and completes her morning routine, washing her face and brushing her hair in preparation for the busy day ah",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Li rises early to begin her day. She dresses in her practical yet warm attire, arranges her hair simply, and reviews the",
+      60
+    ],
+    [
+      "asleep",
+      600
+    ],
+    [
+      "Li Mingzhu hosts the Lantern Festival gathering, greeting familiar faces and new visitors as the tea house fills with wa",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:{main room:<random>",
+  "act_start_time": "February 15, 0742, 19:00:00",
+  "act_duration": 300,
+  "act_description": "asleep",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Li Mingzhu",
+    "Li Mingzhu",
+    "is"
+  ],
+  "act_obj_description": "being used",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      76,
+      16
+    ],
+    [
+      75,
+      16
+    ],
+    [
+      74,
+      16
+    ],
+    [
+      73,
+      16
+    ],
+    [
+      73,
+      15
+    ],
+    [
+      73,
+      14
+    ]
+  ]
+}

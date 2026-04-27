@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        79,
+        14
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        131,
+        35
+      ],
+      "pronunciatio": "🎭",
+      "description": "Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages",
+      "chat": null
+    },
+    "An Lushan": {
+      "movement": [
+        129,
+        41
+      ],
+      "pronunciatio": "🎭",
+      "description": "An is hosting a small feast with potential partners at the inn's tavern, entertaining guests with food and drink while s @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 20:15:30"
+  }
+}

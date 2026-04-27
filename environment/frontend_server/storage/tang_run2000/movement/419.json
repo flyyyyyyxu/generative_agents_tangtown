@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        125,
+        39
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep (conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with An Lu",
+      "chat": null
+    },
+    "An Lushan": {
+      "movement": [
+        121,
+        41
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep (on the way to asleep) @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 19:09:50"
+  }
+}

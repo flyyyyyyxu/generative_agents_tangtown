@@ -1,0 +1,164 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "🎭",
+      "description": "Li Mingzhu hosts the Lantern Festival gathering, greeting familiar faces and new visitors as the tea house fills with wa @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        128,
+        50
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with An Lushan def",
+      "chat": [
+        [
+          "Chen Zian",
+          "Excuse me, may I ask who you are? I don't recall seeing you in this dormitory before. I am Chen Zian, a scholar preparing for the imperial examinations. Pardon my surprise - I was asleep when I noticed you here."
+        ],
+        [
+          "An Lushan",
+          "Greetings, scholar Chen Zian. I am An Lushan, a merchant from the West Market. I apologize for the intrusion - I was resting when I found myself here. A pleasure to meet you. Are you indeed preparing for the imperial exa"
+        ],
+        [
+          "Chen Zian",
+          "Yes, I am indeed preparing for the imperial examinations. It is strange that a merchant from the West Market would find himself resting in a college dormitory. Pardon my curiosity, but you mentioned you were resting when"
+        ],
+        [
+          "An Lushan",
+          "Indeed, a most unusual circumstance. I was traveling through these parts and felt weary from my journey. I sought shelter and must have wandered in here, perhaps mistaking it for an inn. The road from the West Market can"
+        ],
+        [
+          "Chen Zian",
+          "Ah, traveling from the West Market must bring you into contact with many varied people and news. I am curious - as a merchant who deals with foreigners and travelers, do you happen to hear any whispers about what the cur"
+        ],
+        [
+          "An Lushan",
+          "Whispers? Ah, scholar, you were asking about what? Please, do continue. As a merchant who travels the Silk Road, I do hear many rumors and tidings - news from the border regions, tales of foreign lands, and sometimes mat"
+        ],
+        [
+          "Chen Zian",
+          "I was asking whether you have heard any whispers about what the current examiners value - do they prefer moral clarity in essays, or do they favor more ornate literary style? As someone who travels widely, you might have"
+        ],
+        [
+          "An Lushan",
+          "Ah, scholar, that is a matter beyond my expertise - I am a simple merchant, not versed in the ways of the imperial examinations. However, I do know that many wealthy households in Chang'an whose sons study for these same"
+        ],
+        [
+          "Chen Zian",
+          "I see. Well, if you have encountered any wealthy households with sons preparing for the examinations, perhaps they might have insights into the current preferences. Tell me, what manner of people have you met in your tra"
+        ],
+        [
+          "An Lushan",
+          "...these same examinations. In fact, many such families are often seeking foreign goods - rare spices, fine glassware, and other imports to celebrate their sons' successes. If I may be so bold, scholar Chen Zian, perhaps"
+        ],
+        [
+          "Chen Zian",
+          "I understand such matters may seem distant from merchant concerns. However, if you have encountered any wealthy families or officials in your travels, do they speak of what the current examiners in Chang'an favor? I ask"
+        ],
+        [
+          "An Lushan",
+          "Ah, scholar, I was saying that many wealthy households in Chang'an whose sons study for these examinations often seek certain comforts and distractions during their studies - fine teas, aromatic incense, perhaps even dec"
+        ],
+        [
+          "Chen Zian",
+          "Ah, I see. If I may ask further - do these wealthy households you mention have any particular insights into the examination process? Or perhaps you have encountered scholars or officials who have shared such knowledge? A"
+        ],
+        [
+          "An Lushan",
+          "However, I do know that many wealthy households in Chang'an whose sons study for these examinations often seek fashionable imports to display their status. Scholars like yourself might know which families have such taste"
+        ],
+        [
+          "Chen Zian",
+          "I see. Well, since you travel the Silk Road and deal with various peoples, perhaps you have heard other news of interest? Any word from the border regions, or perhaps rumors from the court that might affect us scholars p"
+        ],
+        [
+          "An Lushan",
+          "...examinations. Many such households employ tutors and have connections to officials who may know the examiners' preferences. If it would be of help, scholar, I could make inquiries among my contacts in Chang'an. A merc"
+        ]
+      ]
+    },
+    "An Lushan": {
+      "movement": [
+        127,
+        50
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with An Lushan def",
+      "chat": [
+        [
+          "Chen Zian",
+          "Excuse me, may I ask who you are? I don't recall seeing you in this dormitory before. I am Chen Zian, a scholar preparing for the imperial examinations. Pardon my surprise - I was asleep when I noticed you here."
+        ],
+        [
+          "An Lushan",
+          "Greetings, scholar Chen Zian. I am An Lushan, a merchant from the West Market. I apologize for the intrusion - I was resting when I found myself here. A pleasure to meet you. Are you indeed preparing for the imperial exa"
+        ],
+        [
+          "Chen Zian",
+          "Yes, I am indeed preparing for the imperial examinations. It is strange that a merchant from the West Market would find himself resting in a college dormitory. Pardon my curiosity, but you mentioned you were resting when"
+        ],
+        [
+          "An Lushan",
+          "Indeed, a most unusual circumstance. I was traveling through these parts and felt weary from my journey. I sought shelter and must have wandered in here, perhaps mistaking it for an inn. The road from the West Market can"
+        ],
+        [
+          "Chen Zian",
+          "Ah, traveling from the West Market must bring you into contact with many varied people and news. I am curious - as a merchant who deals with foreigners and travelers, do you happen to hear any whispers about what the cur"
+        ],
+        [
+          "An Lushan",
+          "Whispers? Ah, scholar, you were asking about what? Please, do continue. As a merchant who travels the Silk Road, I do hear many rumors and tidings - news from the border regions, tales of foreign lands, and sometimes mat"
+        ],
+        [
+          "Chen Zian",
+          "I was asking whether you have heard any whispers about what the current examiners value - do they prefer moral clarity in essays, or do they favor more ornate literary style? As someone who travels widely, you might have"
+        ],
+        [
+          "An Lushan",
+          "Ah, scholar, that is a matter beyond my expertise - I am a simple merchant, not versed in the ways of the imperial examinations. However, I do know that many wealthy households in Chang'an whose sons study for these same"
+        ],
+        [
+          "Chen Zian",
+          "I see. Well, if you have encountered any wealthy households with sons preparing for the examinations, perhaps they might have insights into the current preferences. Tell me, what manner of people have you met in your tra"
+        ],
+        [
+          "An Lushan",
+          "...these same examinations. In fact, many such families are often seeking foreign goods - rare spices, fine glassware, and other imports to celebrate their sons' successes. If I may be so bold, scholar Chen Zian, perhaps"
+        ],
+        [
+          "Chen Zian",
+          "I understand such matters may seem distant from merchant concerns. However, if you have encountered any wealthy families or officials in your travels, do they speak of what the current examiners in Chang'an favor? I ask"
+        ],
+        [
+          "An Lushan",
+          "Ah, scholar, I was saying that many wealthy households in Chang'an whose sons study for these examinations often seek certain comforts and distractions during their studies - fine teas, aromatic incense, perhaps even dec"
+        ],
+        [
+          "Chen Zian",
+          "Ah, I see. If I may ask further - do these wealthy households you mention have any particular insights into the examination process? Or perhaps you have encountered scholars or officials who have shared such knowledge? A"
+        ],
+        [
+          "An Lushan",
+          "However, I do know that many wealthy households in Chang'an whose sons study for these examinations often seek fashionable imports to display their status. Scholars like yourself might know which families have such taste"
+        ],
+        [
+          "Chen Zian",
+          "I see. Well, since you travel the Silk Road and deal with various peoples, perhaps you have heard other news of interest? Any word from the border regions, or perhaps rumors from the court that might affect us scholars p"
+        ],
+        [
+          "An Lushan",
+          "...examinations. Many such households employ tutors and have connections to officials who may know the examiners' preferences. If it would be of help, scholar, I could make inquiries among my contacts in Chang'an. A merc"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 18:03:40"
+  }
+}

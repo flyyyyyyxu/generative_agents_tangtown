@@ -1,0 +1,186 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 15, 0742, 23:33:10",
+  "curr_tile": [
+    131,
+    32
+  ],
+  "daily_plan_req": "Pass the imperial examination by reviewing classical texts, practicing poetry, and seeking advice from educated acquaintances on court politics and essay style.",
+  "name": "Chen Zian",
+  "first_name": "Chen",
+  "last_name": "Zian",
+  "age": 24,
+  "innate": "ambitious, thoughtful, disciplined; prone to self-doubt about his literary elegance",
+  "learned": "Chen Zian is a scholar from a provincial family who has come to Chang'an to sit the imperial examination. He is steeped in Confucian classics and regulated verse, and he studies diligently for advancement.",
+  "currently": "Chen Zian is reviewing classical texts, practicing poetry, and seeking advice on court politics and essay style before the imperial examination. In this simulation, the dormitory and cafe spaces are interpreted as a scholar's inn and tea-house circuit near West Market.",
+  "lifestyle": "Chen Zian studies late, rises after dawn, copies passages carefully, and tries to balance ambition with calm before the examinations.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 75,
+  "importance_ele_n": 31,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "review Confucian classics at the inn from 7:30 to 10:00 am",
+    "have a simple breakfast at 10:00 am",
+    "visit the tea-house near West Market to seek conversation with other scholars about essay technique from 10:30 am to 12:00 pm",
+    "have lunch at a modest eatery near the tea-house at 12:00 pm",
+    "return to the inn to practice regulated verse poetry from 1:00 to 3:00 pm",
+    "take a short rest and review notes on court politics from 3:00 to 4:00 pm",
+    "call on a fellow provincial scholar to discuss examination trends at 4:30 pm",
+    "return to the inn for dinner at 6:30 pm",
+    "copy important passages from the Classics to strengthen memory from 7:30 to 9:30 pm",
+    "prepare for sleep and reflect on the day's studies at 9:30 pm",
+    "retire for the night at 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen is reviewing Confucian classics at the inn, studying the Analects and memorizing key passages to prepare for the im",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ],
+    [
+      "Chen is having lunch at a modest eatery near the tea-house, taking a brief break from his studies and enjoying a simple ",
+      60
+    ],
+    [
+      "Chen returns to the inn to practice regulated verse poetry, composing and refining poems in the strict tonal patterns re",
+      60
+    ],
+    [
+      "Chen is practicing regulated verse poetry",
+      60
+    ],
+    [
+      "asleep (on the way to aslee)",
+      240
+    ],
+    [
+      "asleep (conversing about Chen Zian, a scholar preparing for the imperial examinations, asking An Lushan, a merchant from the West Market, about what the current examiners value in essays - moral clarity or ornate literary style - with An Lushan deflecting that such matters are beyond his expertise)",
+      16
+    ],
+    [
+      "Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t) (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t)) (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t) (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t (Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t)))",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -16
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Chen is reviewing Confucian classics at the inn, studying the Analects and memorizing key passages to prepare for the im",
+      60
+    ],
+    [
+      "asleep",
+      180
+    ],
+    [
+      "Chen is having lunch at a modest eatery near the tea-house, taking a brief break from his studies and enjoying a simple ",
+      60
+    ],
+    [
+      "Chen returns to the inn to practice regulated verse poetry, composing and refining poems in the strict tonal patterns re",
+      60
+    ],
+    [
+      "Chen is practicing regulated verse poetry",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ],
+    [
+      "Chen is preparing his writing materials and setting out the Classics at his desk, preparing to copy important passages t",
+      60
+    ],
+    [
+      "asleep",
+      240
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:{common room:<random>",
+  "act_start_time": "February 15, 0742, 20:16:00",
+  "act_duration": 240,
+  "act_description": "asleep",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Chen Zian",
+    "Chen Zian",
+    "is"
+  ],
+  "act_obj_description": "being used",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "<random>",
+    "<random>",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "An Lushan": -1092
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      130,
+      31
+    ]
+  ]
+}
