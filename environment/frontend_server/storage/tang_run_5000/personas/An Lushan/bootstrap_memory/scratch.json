@@ -1,0 +1,125 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 0742, 07:53:10",
+  "curr_tile": [
+    120,
+    45
+  ],
+  "daily_plan_req": "1. Wake up and complete morning routine at 5:00 AM 2. Review inventory of foreign glass cups and aromatic spices at the foreign quarter inn at 6:00 AM 3. Visit Li Mingzhu's tea house to meet clerks and buyers and secure dependable local partners at 9:00 AM 4. Showcase and sell goods at West Market from 12:00 PM to 3:00 PM 5. Seek to cultivate relationships with scholars like Chen Zian for potential sales of fine inks and imported paper at 4:00 PM 6. Maintain cordial relations with local officials for smooth paperwork in the evening at 6:00 PM",
+  "name": "An Lushan",
+  "first_name": "An",
+  "last_name": "Lushan",
+  "age": 38,
+  "innate": "shrewd, sociable, adaptive; respects Tang law while always alert to profitable opportunities",
+  "learned": "An Lushan is a Sogdian merchant living in Chang'an, trading in spices, glassware, horses, and textiles sourced from the Silk Road. He is multilingual and often bridges foreign traders with Chinese buyers.",
+  "currently": "Status: An Lushan's status for Monday February 16: It is now Monday February 16. An Lushan wakes early around 5 AM and will review his inventory of foreign glass cups and aromatic spices at the foreign quarter inn around 6 AM, as per his established morning routine. He plans to visit Li Mingzhu's tea house to meet clerks and buyers, continuing his efforts to secure dependable local partners before his caravan departs. He may seek to further cultivate relationships with scholars like Chen Zian who could become valuable customers for fine inks and imported paper. Maintaining cordial relations with local officials remains a priority for smooth paperwork. No specific appointments, meetings, or events have been scheduled for today, so An Lushan will proceed with his general business activities\u2014showcasing his goods at West Market, exploring festival opportunities to attract curious customers, and seeking reliable local partners to ensure his caravan can depart with confidence.",
+  "lifestyle": "An Lushan rises early for market business, spends the day negotiating and inspecting goods, and keeps evenings free for alliances, feasts, and deals.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 19,
+  "importance_ele_n": 51,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "wake up and complete the morning routine at 5:00 am",
+    "have breakfast at the inn and review his inventory of glass cups and spices at 6:00 am",
+    "depart for West Market and set up his stall to display foreign glassware and aromatic spices at 7:00 am",
+    "greet familiar merchants and attract potential customers at the West Market from 8:00 to 10:00 am",
+    "negotiate prices and complete sales of his merchandise from 10:00 am to 12:00 pm",
+    "have lunch at a nearby food stall in the market while networking with other traders at 12:00 pm",
+    "continue selling remaining goods and scouting for reliable local partners from 1:00 to 3:00 pm",
+    "meet with potential Chinese partners to discuss future trade arrangements and caravan logistics from 3:00 to 5:00 pm",
+    "return to the inn to store unsold goods and freshen up at 6:00 pm",
+    "host a small banquet at the tavern in the foreign quarter to cement new business alliances from 7:00 to 9:00 pm",
+    "retire to his lodging and review the day's transactions before sleeping at 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "asleep (on the way to aslee)",
+      780
+    ],
+    [
+      "asleep (conversing about evening plans in Chang'an)",
+      1
+    ],
+    [
+      "Return to the inn to store unsold goods and freshen up",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      -1
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "asleep",
+      780
+    ],
+    [
+      "Return to the inn to store unsold goods and freshen up",
+      60
+    ],
+    [
+      "asleep",
+      300
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:kitchen:toaster",
+  "act_start_time": "February 16, 0742, 06:05:00",
+  "act_duration": 715,
+  "act_description": "asleep (on the way to aslee)",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "An Lushan",
+    "An Lushan",
+    "is"
+  ],
+  "act_obj_description": "toaster is idle",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "toaster",
+    "toaster",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Chen Zian": 150
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

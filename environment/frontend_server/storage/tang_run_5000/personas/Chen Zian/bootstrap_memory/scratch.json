@@ -1,0 +1,148 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 16, 0742, 07:53:10",
+  "curr_tile": [
+    120,
+    45
+  ],
+  "daily_plan_req": "1. wake up at dawn (around 6:00 am) and complete morning routine, then review Confucian classics until mid-morning, 2. have a simple lunch at the inn around 11:30 am, 3. visit Li Mingzhu's tea house near West Market in the early afternoon (around 1:00 pm) to observe travelers and seek insights on examiner preferences and court politics, 4. return to the inn before dusk to practice regulated verse and copy model essays until evening, 5. have dinner at 6:30 pm, 6. study by lamplight until late night (around 10:00 pm) before retiring.",
+  "name": "Chen Zian",
+  "first_name": "Chen",
+  "last_name": "Zian",
+  "age": 24,
+  "innate": "ambitious, thoughtful, disciplined; prone to self-doubt about his literary elegance",
+  "learned": "Chen Zian is a scholar from a provincial family who has come to Chang'an to sit the imperial examination. He is steeped in Confucian classics and regulated verse, and he studies diligently for advancement.",
+  "currently": "Status: Chen Zian begins another day of preparation at the scholar's inn near West Market. He wakes early to continue reviewing the Confucian classics and practicing his prose, still troubled by concerns that his writing lacks the elegant ornamentation that metropolitan examiners favor. Given the festival period and the opportunity to gather intelligence, he plans to visit Li Mingzhu's tea house again, hoping to encounter travelers or scholars who might share insights into current examiner preferences and court factional dynamics. While no specific appointments are scheduled, Chen Zian intends to make the most of these final weeks before the imperial examinations, balancing rigorous study with strategic social networking.",
+  "lifestyle": "Chen Zian studies late, rises after dawn, copies passages carefully, and tries to balance ambition with calm before the examinations.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.99,
+  "importance_trigger_max": 150,
+  "importance_trigger_curr": 62,
+  "importance_ele_n": 36,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "study Confucian classics and recite passages from 6:30 to 9:00 am",
+    "take a simple breakfast at the inn's common room at 9:00 am",
+    "visit the tea-house near West Market to seek conversation with learned acquaintances about essay composition and current court politics from 10:00 am to 12:00 pm",
+    "have lunch at a nearby eatery at 12:00 pm",
+    "return to the inn to practice regulated verse poetry and copy exemplary essays from 1:00 to 4:00 pm",
+    "take a brief rest and walk near the inn to clear his mind from 4:00 to 4:30 pm",
+    "review his notes on classical commentaries and discuss finer points of interpretation with a fellow scholar-guest at the inn from 4:30 to 6:30 pm",
+    "have dinner at the inn or a nearby restaurant at 6:30 pm",
+    "read and memorize key passages by candlelight from 7:30 to 9:30 pm",
+    "complete evening hygiene and prepare for sleep by 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Studying Confucian (on the way to Studying Confucian)",
+      0
+    ],
+    [
+      "Studying Confucian (conversing about evening plans in Chang'an)",
+      1
+    ],
+    [
+      "asleep",
+      540
+    ],
+    [
+      "Chen is reviewing his notes on classical commentaries and discussing",
+      60
+    ],
+    [
+      "asleep",
+      360
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      59
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "Studying Confucian",
+      60
+    ],
+    [
+      "asleep",
+      540
+    ],
+    [
+      "Chen is reviewing his notes on classical commentaries and discussing",
+      60
+    ],
+    [
+      "asleep",
+      360
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:kitchen:toaster",
+  "act_start_time": "February 16, 0742, 07:01:00",
+  "act_duration": 540,
+  "act_description": "asleep",
+  "act_pronunciatio": "\ud83c\udfad",
+  "act_event": [
+    "Chen Zian",
+    "Chen Zian",
+    "is"
+  ],
+  "act_obj_description": "toaster is idle",
+  "act_obj_pronunciatio": "\ud83c\udfad",
+  "act_obj_event": [
+    "toaster",
+    "toaster",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "An Lushan": 150
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

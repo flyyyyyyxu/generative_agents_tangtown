@@ -1,0 +1,44 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        74,
+        15
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep @ the Ville:Isabella Rodriguez's apartment:kitchen:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        121,
+        45
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about evening plans in Chang'an @ <persona> An Lushan",
+      "chat": [
+        [
+          "An Lushan",
+          "Good evening. I should return to my work soon."
+        ]
+      ]
+    },
+    "An Lushan": {
+      "movement": [
+        120,
+        45
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about evening plans in Chang'an @ <persona> Chen Zian",
+      "chat": [
+        [
+          "An Lushan",
+          "Good evening. I should return to my work soon."
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 16, 0742, 06:04:40"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        77,
+        16
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep @ the Ville:Isabella Rodriguez's apartment:{ main room:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        123,
+        45
+      ],
+      "pronunciatio": "🎭",
+      "description": "asleep (on the way to aslee) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null
+    },
+    "An Lushan": {
+      "movement": [
+        116,
+        41
+      ],
+      "pronunciatio": "🎭",
+      "description": "An is Hosting a small banquet at the tavern in the foreign quarter to cement new business alliances (conversing about Chen Zian, a scholar preparing for imperial examinations,询问An Lushan, a western merchant, about the capital's wealthy hous",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 19:01:20"
+  }
+}

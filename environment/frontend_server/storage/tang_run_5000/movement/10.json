@@ -1,0 +1,164 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        77,
+        16
+      ],
+      "pronunciatio": "🎭",
+      "description": "Li opens the doors to the tea house for the Lantern Festival evening gathering, warmly greeting arriving customers with @ the Ville:Isabella Rodriguez's apartment:Answer:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        125,
+        50
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about Chen Zian, a scholar preparing for imperial examinations,询问An Lushan, a western merchant, about the capital's wealthy households and what qualities examiners favor, but the merchant admits he doesn't know much about the exa",
+      "chat": [
+        [
+          "Chen Zian",
+          "Greetings, sir. I hope I am not interrupting. I am Chen Zian, a scholar preparing for the imperial examinations. I couldn't help but notice you appear to be a merchant of some experience. If you have a moment, I would be"
+        ],
+        [
+          "An Lushan",
+          "Greetings, young scholar! No interruption at all. I am An Lushan, a merchant from the western lands. A scholar preparing for the imperial examinations—that is admirable indeed! Please, come, sit. Would you like some tea?"
+        ],
+        [
+          "Chen Zian",
+          "Thank you, sir, that is most kind. I would very much appreciate some tea. As a merchant who travels throughout the realm, you must have many observations about the capital and its people. I am curious—since you have like"
+        ],
+        [
+          "An Lushan",
+          "The capital is a wondrous place, full of opportunity for those who know where to look. In my years trading here, I've learned that Chang'an's wealthy households are always seeking new and exotic goods—particularly from t"
+        ],
+        [
+          "Chen Zian",
+          "Indeed, I am most interested in hearing more about the capital's households and their preferences. As a scholar, I am also curious about the imperial examinations—since you have observed the capital's people so closely,"
+        ],
+        [
+          "An Lushan",
+          "Indeed, young scholar, the imperial examinations are a topic close to my heart. You see, the families of successful candidates often become my best customers—newly appointed officials seek to furnish their households wit"
+        ],
+        [
+          "Chen Zian",
+          "That is most insightful, sir. Since you have observed which scholars succeed and rise to positions of importance, I am curious—do you know what qualities the current examiners in Chang'an tend to favor? For instance, do"
+        ],
+        [
+          "An Lushan",
+          "Ah, young scholar, I must be candid with you—while I know much about the goods that wealthy households desire, the inner workings of the imperial examination halls are somewhat beyond my expertise. I am a merchant, not a"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Though perhaps you might share what you have observed in general terms—such as which families or regions tend to produce successful candidates? Or whether you have heard any whispers among your custome"
+        ],
+        [
+          "An Lushan",
+          "Ah, young scholar, I must be candid with you—while I know much about the goods that wealthy households desire, the inner workings of the imperial examination halls are somewhat beyond my expertise. I am a merchant, not a"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Your perspective is still valuable, though—if I may ask, what kinds of scholarly qualities do you observe in the families of those who pass? For instance, when newly appointed officials furnish their h"
+        ],
+        [
+          "An Lushan",
+          "...a scholar of the examination halls. But I can tell you this much—those who succeed often have families with means to support their studies for years, and connections to influential households certainly don't hurt. Now"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Yet as a merchant who serves the households of both aspiring scholars and established officials, you must hear many conversations and observe much that educated men might miss. Do you perhaps hear any"
+        ],
+        [
+          "An Lushan",
+          "I am a merchant, not a scholar, so I cannot speak to what the examiners specifically favor. However, I do know this: scholars like yourself often have needs that I might be able to help with—fine inks, imported paper, pe"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Of course, your expertise lies in different waters. Still, as a merchant who deals with newly appointed officials and their households, you must observe what matters to them in their new positions. For"
+        ],
+        [
+          "An Lushan",
+          "Ah, young scholar, I must be candid with you—while I know much about the goods that wealthy households desire, the inner workings of the imperial examination halls are somewhat beyond my expertise. I am a merchant, not a"
+        ]
+      ]
+    },
+    "An Lushan": {
+      "movement": [
+        129,
+        50
+      ],
+      "pronunciatio": "💬",
+      "description": "conversing about Chen Zian, a scholar preparing for imperial examinations,询问An Lushan, a western merchant, about the capital's wealthy households and what qualities examiners favor, but the merchant admits he doesn't know much about the exa",
+      "chat": [
+        [
+          "Chen Zian",
+          "Greetings, sir. I hope I am not interrupting. I am Chen Zian, a scholar preparing for the imperial examinations. I couldn't help but notice you appear to be a merchant of some experience. If you have a moment, I would be"
+        ],
+        [
+          "An Lushan",
+          "Greetings, young scholar! No interruption at all. I am An Lushan, a merchant from the western lands. A scholar preparing for the imperial examinations—that is admirable indeed! Please, come, sit. Would you like some tea?"
+        ],
+        [
+          "Chen Zian",
+          "Thank you, sir, that is most kind. I would very much appreciate some tea. As a merchant who travels throughout the realm, you must have many observations about the capital and its people. I am curious—since you have like"
+        ],
+        [
+          "An Lushan",
+          "The capital is a wondrous place, full of opportunity for those who know where to look. In my years trading here, I've learned that Chang'an's wealthy households are always seeking new and exotic goods—particularly from t"
+        ],
+        [
+          "Chen Zian",
+          "Indeed, I am most interested in hearing more about the capital's households and their preferences. As a scholar, I am also curious about the imperial examinations—since you have observed the capital's people so closely,"
+        ],
+        [
+          "An Lushan",
+          "Indeed, young scholar, the imperial examinations are a topic close to my heart. You see, the families of successful candidates often become my best customers—newly appointed officials seek to furnish their households wit"
+        ],
+        [
+          "Chen Zian",
+          "That is most insightful, sir. Since you have observed which scholars succeed and rise to positions of importance, I am curious—do you know what qualities the current examiners in Chang'an tend to favor? For instance, do"
+        ],
+        [
+          "An Lushan",
+          "Ah, young scholar, I must be candid with you—while I know much about the goods that wealthy households desire, the inner workings of the imperial examination halls are somewhat beyond my expertise. I am a merchant, not a"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Though perhaps you might share what you have observed in general terms—such as which families or regions tend to produce successful candidates? Or whether you have heard any whispers among your custome"
+        ],
+        [
+          "An Lushan",
+          "Ah, young scholar, I must be candid with you—while I know much about the goods that wealthy households desire, the inner workings of the imperial examination halls are somewhat beyond my expertise. I am a merchant, not a"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Your perspective is still valuable, though—if I may ask, what kinds of scholarly qualities do you observe in the families of those who pass? For instance, when newly appointed officials furnish their h"
+        ],
+        [
+          "An Lushan",
+          "...a scholar of the examination halls. But I can tell you this much—those who succeed often have families with means to support their studies for years, and connections to influential households certainly don't hurt. Now"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Yet as a merchant who serves the households of both aspiring scholars and established officials, you must hear many conversations and observe much that educated men might miss. Do you perhaps hear any"
+        ],
+        [
+          "An Lushan",
+          "I am a merchant, not a scholar, so I cannot speak to what the examiners specifically favor. However, I do know this: scholars like yourself often have needs that I might be able to help with—fine inks, imported paper, pe"
+        ],
+        [
+          "Chen Zian",
+          "I understand, sir. Of course, your expertise lies in different waters. Still, as a merchant who deals with newly appointed officials and their households, you must observe what matters to them in their new positions. For"
+        ],
+        [
+          "An Lushan",
+          "Ah, young scholar, I must be candid with you—while I know much about the goods that wealthy households desire, the inner workings of the imperial examination halls are somewhat beyond my expertise. I am a merchant, not a"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 15, 0742, 18:01:40"
+  }
+}

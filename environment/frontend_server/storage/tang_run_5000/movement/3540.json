@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "Li Mingzhu": {
+      "movement": [
+        78,
+        15
+      ],
+      "pronunciatio": "🎭",
+      "description": "sleeping @ the Ville:Isabella Rodriguez's apartment:{main room:unspecified spot",
+      "chat": null
+    },
+    "Chen Zian": {
+      "movement": [
+        118,
+        41
+      ],
+      "pronunciatio": "🎭",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot",
+      "chat": null
+    },
+    "An Lushan": {
+      "movement": [
+        131,
+        34
+      ],
+      "pronunciatio": "🎭",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:{common room:unspecified spot",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 16, 0742, 03:50:00"
+  }
+}
